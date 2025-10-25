@@ -1,0 +1,7 @@
+@MovieRatingServer_HostAddress = http://localhost:5143
+
+GET {{MovieRatingServer_HostAddress}}/movieRatingSite
+Accept: application/json
+
+###
+
