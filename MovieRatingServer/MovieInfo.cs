@@ -3,84 +3,68 @@ using System.Text.Json.Serialization;
 
 namespace MovieRatingServer;
 
-public class MovieDatabaseRoot
-{
-    public List<MovieFullInfo> MovieDatabase { get; set; }
-}
-
 public class MovieInfo
 {
-    [JsonPropertyName("movieTitle")]
-    public string movieTitle { get; set; } = string.Empty;
+    [JsonPropertyName("Title")]
+    public required string Title { get; set; }
 
-    [JsonPropertyName("movieDirector")]
-    public string movieDirector { get; set; } = string.Empty;
+    [JsonPropertyName("Director")]
+    public required string Director { get; set; }
 
-    [JsonPropertyName("movieReleaseYear")]
-    public string movieReleaseYear { get; set; } = string.Empty;
+    [JsonPropertyName("Year")]
+    public required string Year { get; set; }
 
-    [JsonPropertyName("movieTopBilled")]
-    public string movieTopBilled { get; set; } = string.Empty;
+    [JsonPropertyName("Actors")]
+    public required string Actors { get; set; }
 
-    [JsonPropertyName("movieSummary")]
-    public string movieSummary { get; set; } = string.Empty;
+    [JsonPropertyName("Plot")]
+    public required string Plot { get; set; }
 
-    [JsonPropertyName("moviePosterLink")]
-    public string moviePosterLink { get; set; } = string.Empty;
+    [JsonPropertyName("Poster")]
+    public required string Poster { get; set; }
 
-    [JsonPropertyName("movieRatingIMDB")]
-    public string movieRatingIMDB { get; set; } = string.Empty;
+    [JsonPropertyName("RatingSource")]
+    public required string RatingSource { get; set; }
 
-    [JsonPropertyName("movieRatingMetascore")]
-    public string movieRatingMetascore { get; set; } = string.Empty;
+    [JsonPropertyName("RatingValue")]
+    public required string RatingValue { get; set; }
 
-    [JsonPropertyName("movieRatingRottenTomatoes")]
-    public string movieRatingRottenTomatoes { get; set; } = string.Empty;
-
-    [JsonPropertyName("movieRatingOther")]
-    public string movieRatingOther { get; set; } = string.Empty;
+    [JsonPropertyName("RandomRatingInt")]
+    public required int RandomRatingInt { get; set; }
 }
 
 
-
-public class MovieFullInfo
+public class RawMovie
 {
-    public string Title { get; set; }
-    public string Year { get; set; }
-    public string Rated { get; set; }
-    public string Released { get; set; }
-    public string Runtime { get; set; }
-    public string Genre { get; set; }
-    public string Director { get; set; }
-    public string Writer { get; set; }
-    public string Actors { get; set; }
-    public string Plot { get; set; }
-    public string Language { get; set; }
-    public string Country { get; set; }
-    public string Awards { get; set; }
-    public string Poster { get; set; }
-    public List<MovieFullInfoRating> Ratings { get; set; }
-    public string Metascore { get; set; }
-
-    [JsonPropertyName("imdbRating")]
-    public string ImdbRating { get; set; }
-
-    [JsonPropertyName("imdbVotes")]
-    public string ImdbVotes { get; set; }
-
-    [JsonPropertyName("imdbID")]
-    public string ImdbID { get; set; }
-
-    public string Type { get; set; }
-    public string DVD { get; set; }
-    public string BoxOffice { get; set; }
-    public string Production { get; set; }
-    public string Website { get; set; }
-    public string Response { get; set; }
+    public required string Title { get; set; }
+    public string Year { get; set; } = string.Empty;
+    public string? Rated { get; set; }
+    public string? Released { get; set; }
+    public string? Runtime { get; set; }
+    public string? Genre { get; set; }
+    public string? Director { get; set; }
+    public string? Writer { get; set; }
+    public string? Actors { get; set; }
+    public string? Plot { get; set; }
+    public string? Language { get; set; }
+    public string? Country { get; set; }
+    public string? Awards { get; set; }
+    public string? Poster { get; set; }
+    public List<Rating>? Ratings { get; set; }
+    public string? Metascore { get; set; }
+    public string? imdbRating { get; set; }
+    public string? imdbVotes { get; set; }
+    public string? imdbID { get; set; }
+    public string? Type { get; set; }
+    public string? DVD { get; set; }
+    public string? BoxOffice { get; set; }
+    public string? Production { get; set; }
+    public string? Website { get; set; }
+    public string? Response { get; set; }
 }
 
-public class MovieFullInfoRating
+public class Rating
 {
-    public string Source { get; set; }
-    public string Value { get; set; }
+    public string? Source { get; set; }
+    public string? Value { get; set; }
 }

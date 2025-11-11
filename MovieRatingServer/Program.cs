@@ -10,7 +10,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IMovieListService, MovieListService>();
-builder.Services.AddSingleton<IMovieFullListService, MovieFullListService>();
 
 
 var app = builder.Build();

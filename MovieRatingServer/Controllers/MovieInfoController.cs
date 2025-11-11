@@ -19,6 +19,26 @@ public class MovieInfoController : ControllerBase
     [HttpGet("MovieInfo")]
     public IEnumerable<MovieInfo> Get()
     {
-        return [_movieListService.GetRandomMovie(), _movieListService.GetRandomMovie(), _movieListService.GetRandomMovie()];
+        var result = new List<MovieInfo>(3);
+        var seenTitles = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        const int maxAttempts = 50;
+        int attempts = 0;
+
+        while (result.Count < 3 && attempts < maxAttempts)
+        {
+            var movie = _movieListService.GetRandomMovie();
+            attempts++;
+
+            if (movie is null)
+                continue;
+
+            // Use Title as the uniqueness key; change to another property if needed
+            if (seenTitles.Add(movie.Title))
+            {
+                result.Add(movie);
+            }
+        }
+
+        return result;
     }
 }
