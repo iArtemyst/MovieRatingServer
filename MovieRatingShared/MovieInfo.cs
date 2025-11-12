@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
-namespace MovieRatingServer;
+namespace MovieRating.Shared;
 
 public class MovieInfo
 {
@@ -33,6 +32,11 @@ public class MovieInfo
     public required int RandomRatingInt { get; set; }
 }
 
+public class RawMovieList
+{
+    [JsonPropertyName("MovieDatabase")]
+    public List<RawMovie> MovieDatabase { get; set; } = new();
+}
 
 public class RawMovie
 {

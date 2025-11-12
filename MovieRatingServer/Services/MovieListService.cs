@@ -1,8 +1,6 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.IO;
-using System.Linq;
-using Microsoft.AspNetCore.Hosting;
+using MovieRating.Shared;
 
 namespace MovieRatingServer.Services;
 
@@ -22,7 +20,7 @@ public class MovieListService : IMovieListService
             var json = File.ReadAllText(path);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-            var root = JsonSerializer.Deserialize<RawRoot>(json, options);
+            var root = JsonSerializer.Deserialize<RawMovieList>(json, options);
             _movies = root?.MovieDatabase?.Select(m => Map(m, _rng)).ToList() ?? new List<MovieInfo>();
         }
         else
@@ -73,11 +71,5 @@ public class MovieListService : IMovieListService
             return ("Internet Movie Database", m.imdbRating);
 
         return (string.Empty, string.Empty);
-    }
-
-    private class RawRoot
-    {
-        [JsonPropertyName("MovieDatabase")]
-        public List<RawMovie> MovieDatabase { get; set; } = new();
     }
 }

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using MovieRating.Shared;
 using MovieRatingServer.Services;
-using System.Net;
 
 namespace MovieRatingServer.Controllers;
 
