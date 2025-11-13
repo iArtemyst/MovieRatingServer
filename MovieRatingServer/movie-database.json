@@ -1,114 +1,2709 @@
 {
-    "MovieDatabase" :
-    [
+  "MovieDatabase": [
+    {
+      "Title": "Frankenstein",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "07 Nov 2025",
+      "Runtime": "149 min",
+      "Genre": "Drama, Fantasy, Horror",
+      "Director": "Guillermo del Toro",
+      "Writer": "Mary Shelley, Guillermo del Toro",
+      "Actors": "Mia Goth, Burn Gorman, Charles Dance",
+      "Plot": "A brilliant but egotistical scientist brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+      "Language": "English, Danish, French",
+      "Country": "Mexico, United States",
+      "Awards": "1 win \u0026 2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzYzNDYxMTQtMTU4OS00MTdlLThhMTQtZjI4NGJmMTZmNmRiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
         {
-            "Title":"The Batman",
-            "Year":"2022",
-            "Rated":"PG-13",
-            "Released":"04 Mar 2022",
-            "Runtime":"176 min",
-            "Genre":"Action, Crime, Drama",
-            "Director":"Matt Reeves",
-            "Writer":"Matt Reeves, Peter Craig, Bob Kane",
-            "Actors":"Robert Pattinson, Zoë Kravitz, Jeffrey Wright",
-            "Plot":"When a sadistic serial killer begins murdering key political figures in Gotham, the Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
-            "Language":"English, Spanish, Latin, Italian",
-            "Country":"United States",
-            "Awards":"Nominated for 3 Oscars. 39 wins & 175 nominations total",
-            "Poster":"https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_SX300.jpg",
-            "Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"85%"},{"Source":"Metacritic","Value":"72/100"}],
-            "Metascore":"72",
-            "imdbRating":"7.8",
-            "imdbVotes":"890,821",
-            "imdbID":"tt1877830",
-            "Type":"movie",
-            "DVD":"N/A",
-            "BoxOffice":"$369,345,583",
-            "Production":"N/A",
-            "Website":"N/A",
-            "Response":"True"
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
         },
         {
-            "Title":"Interstellar",
-            "Year":"2014",
-            "Rated":"PG-13",
-            "Released":"07 Nov 2014",
-            "Runtime":"169 min",
-            "Genre":"Adventure, Drama, Sci-Fi",
-            "Director":"Christopher Nolan",
-            "Writer":"Jonathan Nolan, Christopher Nolan",
-            "Actors":"Matthew McConaughey, Anne Hathaway, Jessica Chastain",
-            "Plot":"Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.",
-            "Language":"English",
-            "Country":"United States, United Kingdom, Canada",
-            "Awards":"Won 1 Oscar. 44 wins & 148 nominations total",
-            "Poster":"https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
-            "Ratings":[{"Source":"Internet Movie Database","Value":"8.7/10"},{"Source":"Rotten Tomatoes","Value":"73%"},{"Source":"Metacritic","Value":"74/100"}],
-            "Metascore":"74",
-            "imdbRating":"8.7",
-            "imdbVotes":"2,395,741",
-            "imdbID":"tt0816692",
-            "Type":"movie",
-            "DVD":"N/A",
-            "BoxOffice":"$203,227,580",
-            "Production":"N/A",
-            "Website":"N/A",
-            "Response":"True"
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
         },
         {
-            "Title":"Brother Bear",
-            "Year":"2003",
-            "Rated":"G",
-            "Released":"01 Nov 2003",
-            "Runtime":"85 min",
-            "Genre":"Animation, Adventure, Comedy",
-            "Director":"Aaron Blaise, Robert Walker",
-            "Writer":"Tab Murphy, Lorne Cameron, David Hoselton",
-            "Actors":"Joaquin Phoenix, Jeremy Suarez, Rick Moranis",
-            "Plot":"When a young Inuit hunter needlessly kills a bear, he is magically changed into a bear himself as punishment with a talkative cub being his only guide to changing back.",
-            "Language":"English, Inuktitut, Croatian, Serbian",
-            "Country":"United States, Japan",
-            "Awards":"Nominated for 1 Oscar. 2 wins & 22 nominations total",
-            "Poster":"https://m.media-amazon.com/images/M/MV5BMTIyNTAyNDYxNF5BMl5BanBnXkFtZTYwNjYwMjg2._V1_SX300.jpg",
-            "Ratings":[{"Source":"Internet Movie Database","Value":"6.9/10"},{"Source":"Rotten Tomatoes","Value":"38%"},{"Source":"Metacritic","Value":"48/100"}],
-            "Metascore":"48",
-            "imdbRating":"6.9",
-            "imdbVotes":"132,501",
-            "imdbID":"tt0328880",
-            "Type":"movie",
-            "DVD":"N/A",
-            "BoxOffice":"$85,336,277",
-            "Production":"N/A",
-            "Website":"N/A",
-            "Response":"True"
+          "Source": "Metacritic",
+          "Value": "78/100"
+        }
+      ],
+      "Metascore": "78",
+      "imdbRating": "7.7",
+      "imdbVotes": "3,792",
+      "imdbID": "tt1312221",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Predator: Badlands",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "07 Nov 2025",
+      "Runtime": "107 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Dan Trachtenberg",
+      "Writer": "Patrick Aison, Jim Thomas, John Thomas",
+      "Actors": "Elle Fanning, Dimitrius Schuster-Koloamatangi",
+      "Plot": "A young Predator outcast from his clan finds an unlikely ally on his journey in search of the ultimate adversary.",
+      "Language": "English",
+      "Country": "United States, Australia, New Zealand, Canada",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTdjZGUxMTItNjRkNS00N2VhLWE4MjMtMjVhODMwMGIxNjUwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
         },
-        {"Title":"The Greatest Game Ever Played","Year":"2005","Rated":"PG","Released":"30 Sep 2005","Runtime":"120 min","Genre":"Biography, Drama, Sport","Director":"Bill Paxton","Writer":"Mark Frost","Actors":"Shia LaBeouf, Stephen Dillane, Elias Koteas","Plot":"In the 1913 U.S. Open, twenty-year-old Francis Ouimet played golf against his idol, 1900 U.S. Open champion, Englishman Harry Vardon.","Language":"English","Country":"United States, Canada","Awards":"3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTQ4NDk3MDk0NV5BMl5BanBnXkFtZTcwMzk4OTgyMQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"62%"},{"Source":"Metacritic","Value":"55/100"}],"Metascore":"55","imdbRating":"7.4","imdbVotes":"34,268","imdbID":"tt0388980","Type":"movie","DVD":"N/A","BoxOffice":"$15,337,393","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Inglourious Basterds","Year":"2009","Rated":"R","Released":"21 Aug 2009","Runtime":"153 min","Genre":"Adventure, Drama, War","Director":"Quentin Tarantino","Writer":"Quentin Tarantino","Actors":"Brad Pitt, Diane Kruger, Eli Roth","Plot":"In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.","Language":"English, German, French, Italian","Country":"United States, Germany","Awards":"Won 1 Oscar. 134 wins & 173 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"},{"Source":"Rotten Tomatoes","Value":"89%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"8.4","imdbVotes":"1,712,358","imdbID":"tt0361748","Type":"movie","DVD":"N/A","BoxOffice":"$120,540,719","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"The Truman Show","Year":"1998","Rated":"PG","Released":"05 Jun 1998","Runtime":"103 min","Genre":"Comedy, Drama","Director":"Peter Weir","Writer":"Andrew Niccol","Actors":"Jim Carrey, Ed Harris, Laura Linney","Plot":"An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.","Language":"English","Country":"United States","Awards":"Nominated for 3 Oscars. 41 wins & 69 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"90/100"}],"Metascore":"90","imdbRating":"8.2","imdbVotes":"1,310,024","imdbID":"tt0120382","Type":"movie","DVD":"N/A","BoxOffice":"$125,618,201","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Toy Story","Year":"1995","Rated":"G","Released":"22 Nov 1995","Runtime":"81 min","Genre":"Animation, Adventure, Comedy","Director":"John Lasseter","Writer":"John Lasseter, Pete Docter, Andrew Stanton","Actors":"Tom Hanks, Tim Allen, Don Rickles","Plot":"A cowboy doll is profoundly jealous when a new spaceman action figure supplants him as the top toy in a boy's bedroom. When circumstances separate them from their owner, the duo have to put aside their differences to return to him.","Language":"English","Country":"United States","Awards":"Nominated for 3 Oscars. 29 wins & 24 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.3/10"},{"Source":"Rotten Tomatoes","Value":"100%"},{"Source":"Metacritic","Value":"96/100"}],"Metascore":"96","imdbRating":"8.3","imdbVotes":"1,141,954","imdbID":"tt0114709","Type":"movie","DVD":"N/A","BoxOffice":"$229,693,424","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"V for Vendetta","Year":"2005","Rated":"R","Released":"17 Mar 2006","Runtime":"132 min","Genre":"Action, Drama, Sci-Fi","Director":"James McTeigue","Writer":"Lilly Wachowski, Lana Wachowski, David Lloyd","Actors":"Hugo Weaving, Natalie Portman, Rupert Graves","Plot":"In a future British dystopian society, a shadowy freedom fighter, known only by the alias of \"V\", plots to overthrow the tyrannical government - with the help of a young woman.","Language":"English, French, Latin, Spanish","Country":"United States, United Kingdom, Germany","Awards":"7 wins & 29 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"73%"},{"Source":"Metacritic","Value":"62/100"}],"Metascore":"62","imdbRating":"8.1","imdbVotes":"1,224,664","imdbID":"tt0434409","Type":"movie","DVD":"N/A","BoxOffice":"$70,511,035","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Pirates of the Caribbean: The Curse of the Black Pearl","Year":"2003","Rated":"PG-13","Released":"09 Jul 2003","Runtime":"143 min","Genre":"Action, Adventure, Fantasy","Director":"Gore Verbinski","Writer":"Ted Elliott, Terry Rossio, Stuart Beattie","Actors":"Johnny Depp, Geoffrey Rush, Orlando Bloom","Plot":"Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save Elizabeth Swann, the governor's daughter and his love, from Jack's former pirate allies, who are now undead.","Language":"English","Country":"United States","Awards":"Nominated for 5 Oscars. 38 wins & 104 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNDhlMzEyNzItMTA5Mi00YWRhLThlNTktYTQyMTA0MDIyNDEyXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"79%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"8.1","imdbVotes":"1,283,385","imdbID":"tt0325980","Type":"movie","DVD":"N/A","BoxOffice":"$305,413,918","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Zathura: A Space Adventure","Year":"2005","Rated":"PG","Released":"11 Nov 2005","Runtime":"101 min","Genre":"Action, Adventure, Comedy","Director":"Jon Favreau","Writer":"Chris Van Allsburg, David Koepp, John Kamps","Actors":"Josh Hutcherson, Jonah Bobo, Dax Shepard","Plot":"Two young brothers are drawn into an intergalactic adventure when their house is hurled through the depths of space by the magical board game they are playing.","Language":"English","Country":"United States","Awards":"3 wins & 3 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNDMzZDZhMTQtYzJkNi00OTI2LThjNDUtN2I2N2JjZmYwMWM5XkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.3/10"},{"Source":"Rotten Tomatoes","Value":"77%"},{"Source":"Metacritic","Value":"67/100"}],"Metascore":"67","imdbRating":"6.3","imdbVotes":"122,567","imdbID":"tt0406375","Type":"movie","DVD":"N/A","BoxOffice":"$29,258,869","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Open Season","Year":"2006","Rated":"PG","Released":"29 Sep 2006","Runtime":"86 min","Genre":"Animation, Adventure, Comedy","Director":"Roger Allers, Jill Culton, Richard Williams","Writer":"Steve Bencich, Ron J. Friedman, Nat Mauldin","Actors":"Ashton Kutcher, Martin Lawrence, Debra Messing","Plot":"Boog, a domesticated 900lb. Grizzly bear, finds himself stranded in the woods 3 days before Open Season. Forced to rely on Elliot, a fast-talking mule deer, the two form an unlikely friendship and must quickly rally other forest a...","Language":"English","Country":"United States","Awards":"1 win & 10 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTQwOTg2MjU0OV5BMl5BanBnXkFtZTcwMzIzNTQzMQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.1/10"},{"Source":"Rotten Tomatoes","Value":"48%"},{"Source":"Metacritic","Value":"49/100"}],"Metascore":"49","imdbRating":"6.1","imdbVotes":"110,435","imdbID":"tt0400717","Type":"movie","DVD":"N/A","BoxOffice":"$85,105,259","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Zootopia","Year":"2016","Rated":"PG","Released":"04 Mar 2016","Runtime":"108 min","Genre":"Animation, Action, Adventure","Director":"Byron Howard, Rich Moore, Jared Bush","Writer":"Byron Howard, Rich Moore, Jared Bush","Actors":"Ginnifer Goodwin, Jason Bateman, Idris Elba","Plot":"In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.","Language":"English","Country":"United States","Awards":"Won 1 Oscar. 49 wins & 75 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"98%"},{"Source":"Metacritic","Value":"78/100"}],"Metascore":"78","imdbRating":"8.0","imdbVotes":"592,764","imdbID":"tt2948356","Type":"movie","DVD":"N/A","BoxOffice":"$341,268,248","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Wanted","Year":"2008","Rated":"R","Released":"27 Jun 2008","Runtime":"110 min","Genre":"Action, Crime, Thriller","Director":"Timur Bekmambetov","Writer":"Michael Brandt, Derek Haas, Chris Morgan","Actors":"Angelina Jolie, James McAvoy, Morgan Freeman","Plot":"A frustrated office worker discovers that he is the son of a professional assassin, and that he shares his father's superhuman killing abilities.","Language":"English","Country":"United States, Germany, Russia","Awards":"Nominated for 2 Oscars. 4 wins & 28 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTQwNDM2MTMwMl5BMl5BanBnXkFtZTgwMjE4NjQxMTE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.7/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"64/100"}],"Metascore":"64","imdbRating":"6.7","imdbVotes":"422,913","imdbID":"tt0493464","Type":"movie","DVD":"N/A","BoxOffice":"$134,508,551","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Megalopolis","Year":"2024","Rated":"R","Released":"27 Sep 2024","Runtime":"138 min","Genre":"Drama, Fantasy, Sci-Fi","Director":"Francis Ford Coppola","Writer":"Francis Ford Coppola","Actors":"Adam Driver, Giancarlo Esposito, Nathalie Emmanuel","Plot":"The city of New Rome faces the duel between Cesar Catilina, a brilliant artist in favor of a Utopian future, and the greedy mayor Franklyn Cicero. Between them is Julia Cicero, with her loyalty divided between her father and her b...","Language":"English, Latin, Spanish, German","Country":"United States","Awards":"3 wins & 18 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BOTQ2MTcwODgtOTg3Yi00M2RmLWEyMDQtY2IzZmRlYzM3YzhjXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"4.7/10"},{"Source":"Rotten Tomatoes","Value":"45%"},{"Source":"Metacritic","Value":"55/100"}],"Metascore":"55","imdbRating":"4.7","imdbVotes":"38,183","imdbID":"tt10128846","Type":"movie","DVD":"N/A","BoxOffice":"$7,629,085","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Mickey 17","Year":"2025","Rated":"R","Released":"07 Mar 2025","Runtime":"137 min","Genre":"Adventure, Comedy, Fantasy","Director":"Bong Joon Ho","Writer":"Bong Joon Ho, Edward Ashton","Actors":"Robert Pattinson, Steven Yeun, Michael Monroe","Plot":"During a human expedition to colonize space, Mickey 17, a so-called \"expendable\" employee, is sent to explore an ice planet.","Language":"English","Country":"United States, South Korea","Awards":"1 win & 5 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.7/10"},{"Source":"Rotten Tomatoes","Value":"77%"},{"Source":"Metacritic","Value":"72/100"}],"Metascore":"72","imdbRating":"6.7","imdbVotes":"191,316","imdbID":"tt12299608","Type":"movie","DVD":"N/A","BoxOffice":"$46,047,147","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Happy Gilmore","Year":"1996","Rated":"PG-13","Released":"16 Feb 1996","Runtime":"92 min","Genre":"Comedy, Sport","Director":"Dennis Dugan","Writer":"Tim Herlihy, Adam Sandler","Actors":"Adam Sandler, Christopher McDonald, Julie Bowen","Plot":"After his grandmother's house is repossessed by the IRS, a bad tempered hockey player takes his talents to golf to earn the big bucks and get his grandmothers house back.","Language":"English","Country":"United States","Awards":"1 win & 4 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMzMyZTM1MTMtNDdjOS00NzIzLTkxY2QtZTU4OGYxOTUwNDMxXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.0/10"},{"Source":"Rotten Tomatoes","Value":"65%"},{"Source":"Metacritic","Value":"31/100"}],"Metascore":"31","imdbRating":"7.0","imdbVotes":"293,294","imdbID":"tt0116483","Type":"movie","DVD":"N/A","BoxOffice":"$39,041,354","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Interview with the Vampire","Year":"1994","Rated":"R","Released":"11 Nov 1994","Runtime":"123 min","Genre":"Drama, Fantasy, Horror","Director":"Neil Jordan","Writer":"Anne Rice","Actors":"Brad Pitt, Tom Cruise, Antonio Banderas","Plot":"A vampire tells his epic life story: love, betrayal, loneliness, and hunger.","Language":"English, French","Country":"United States","Awards":"Nominated for 2 Oscars. 24 wins & 34 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYzJlN2NiZDQtZmI4NC00ZWFiLWFmMTUtMWM4ODVlOGFlODY1XkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"63%"},{"Source":"Metacritic","Value":"62/100"}],"Metascore":"62","imdbRating":"7.5","imdbVotes":"366,784","imdbID":"tt0110148","Type":"movie","DVD":"N/A","BoxOffice":"$105,264,608","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"The Thing","Year":"1982","Rated":"R","Released":"25 Jun 1982","Runtime":"109 min","Genre":"Horror, Mystery, Sci-Fi","Director":"John Carpenter","Writer":"Bill Lancaster, John W. Campbell Jr.","Actors":"Kurt Russell, Wilford Brimley, Keith David","Plot":"A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.","Language":"English, Norwegian","Country":"United States","Awards":"5 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYTA3NDU5MWEtNTk4Yy00ZDNkLThmZTQtMjU3ZGVhYzAyMzU4XkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"85%"},{"Source":"Metacritic","Value":"57/100"}],"Metascore":"57","imdbRating":"8.2","imdbVotes":"507,878","imdbID":"tt0084787","Type":"movie","DVD":"N/A","BoxOffice":"$20,063,820","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Draft Day","Year":"2014","Rated":"PG-13","Released":"11 Apr 2014","Runtime":"110 min","Genre":"Drama, Sport","Director":"Ivan Reitman","Writer":"Scott Rothman, Rajiv Joseph","Actors":"Kevin Costner, Chadwick Boseman, Jennifer Garner","Plot":"At the NFL Draft, General Manager Sonny Weaver has the opportunity to rebuild his team when he trades for the number one pick. He must decide what he's willing to sacrifice on a life-changing day for a few hundred young men with N...","Language":"English","Country":"United States","Awards":"1 nomination total","Poster":"https://m.media-amazon.com/images/M/MV5BMjAyOTMxMjA3Nl5BMl5BanBnXkFtZTgwMTMwNjQ4MDE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.8/10"},{"Source":"Rotten Tomatoes","Value":"60%"},{"Source":"Metacritic","Value":"54/100"}],"Metascore":"54","imdbRating":"6.8","imdbVotes":"71,213","imdbID":"tt2223990","Type":"movie","DVD":"N/A","BoxOffice":"$28,842,237","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Eurovision Song Contest: The Story of Fire Saga","Year":"2020","Rated":"PG-13","Released":"26 Jun 2020","Runtime":"123 min","Genre":"Comedy, Music","Director":"David Dobkin","Writer":"Will Ferrell, Harper Steele","Actors":"Will Ferrell, Rachel McAdams, Dan Stevens","Plot":"When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove that any dream worth having is a dream worth fighting for.","Language":"English, Icelandic, Portuguese, French","Country":"United States, Iceland, Canada","Awards":"Nominated for 1 Oscar. 5 wins & 20 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTFhODlhMGMtNTA4Yy00MjNhLWFiNjMtMTFkMjRkN2FmMjAyXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.5/10"},{"Source":"Rotten Tomatoes","Value":"63%"},{"Source":"Metacritic","Value":"50/100"}],"Metascore":"50","imdbRating":"6.5","imdbVotes":"107,283","imdbID":"tt8580274","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Morbius","Year":"2022","Rated":"PG-13","Released":"01 Apr 2022","Runtime":"104 min","Genre":"Action, Adventure, Horror","Director":"Daniel Espinosa","Writer":"Matt Sazama, Burk Sharpless","Actors":"Jared Leto, Matt Smith, Adria Arjona","Plot":"Biochemist Michael Morbius tries to cure himself of a rare blood disease, but he inadvertently infects himself with a form of vampirism instead.","Language":"English, Spanish, Russian","Country":"United States","Awards":"3 wins & 4 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BY2UzYzFiZWUtOGU5ZC00YTIxLWFlNGUtMGU1YmI4OWUzN2FmXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.1/10"},{"Source":"Rotten Tomatoes","Value":"15%"},{"Source":"Metacritic","Value":"35/100"}],"Metascore":"35","imdbRating":"5.1","imdbVotes":"167,560","imdbID":"tt5108870","Type":"movie","DVD":"N/A","BoxOffice":"$73,865,530","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"The Crow","Year":"1994","Rated":"R","Released":"13 May 1994","Runtime":"102 min","Genre":"Action, Crime, Drama","Director":"Alex Proyas","Writer":"James O'Barr, David J. Schow, John Shirley","Actors":"Brandon Lee, Michael Wincott, Rochelle Davis","Plot":"The night before his wedding, musician Eric Draven and his fiancée are brutally murdered by members of a violent gang. On the anniversary of their death, Eric rises from the grave and assumes the mantle of the Crow, a supernatural...","Language":"English","Country":"United States","Awards":"5 wins & 8 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BOTBiNzhkZTItZWUwZS00YTJkLTg0YTEtN2I0ZDI5ODI2MWFjXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"87%"},{"Source":"Metacritic","Value":"72/100"}],"Metascore":"72","imdbRating":"7.5","imdbVotes":"225,348","imdbID":"tt0109506","Type":"movie","DVD":"N/A","BoxOffice":"$50,693,129","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"The Substance","Year":"2024","Rated":"R","Released":"20 Sep 2024","Runtime":"141 min","Genre":"Drama, Horror, Sci-Fi","Director":"Coralie Fargeat","Writer":"Coralie Fargeat","Actors":"Demi Moore, Margaret Qualley, Dennis Quaid","Plot":"A fading celebrity takes a black-market drug: a cell-replicating substance that creates a younger, better version of herself.","Language":"English","Country":"United Kingdom, France","Awards":"Won 1 Oscar. 142 wins & 287 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.2/10"},{"Source":"Rotten Tomatoes","Value":"89%"},{"Source":"Metacritic","Value":"78/100"}],"Metascore":"78","imdbRating":"7.2","imdbVotes":"334,591","imdbID":"tt17526714","Type":"movie","DVD":"N/A","BoxOffice":"$17,584,795","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Journey to the Center of the Earth","Year":"2008","Rated":"PG","Released":"11 Jul 2008","Runtime":"93 min","Genre":"Action, Adventure, Family","Director":"Eric Brevig","Writer":"Michael D. Weiss, Jennifer Flackett, Mark Levin","Actors":"Brendan Fraser, Josh Hutcherson, Aníta Briem","Plot":"On a quest to find out what happened to his missing brother, a scientist, his nephew and their mountain guide discover a fantastic and dangerous lost world in the center of the earth.","Language":"English, Icelandic, Italian","Country":"United States","Awards":"3 wins & 4 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNTMyMGQ4MWYtZmMyYi00M2JhLWFhZmQtNWM5MTVjYjk1MTYxXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.8/10"},{"Source":"Rotten Tomatoes","Value":"59%"},{"Source":"Metacritic","Value":"57/100"}],"Metascore":"57","imdbRating":"5.8","imdbVotes":"138,040","imdbID":"tt0373051","Type":"movie","DVD":"N/A","BoxOffice":"$101,704,370","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Jurassic Park","Year":"1993","Rated":"PG-13","Released":"11 Jun 1993","Runtime":"127 min","Genre":"Action, Adventure, Sci-Fi","Director":"Steven Spielberg","Writer":"Michael Crichton, David Koepp","Actors":"Sam Neill, Laura Dern, Jeff Goldblum","Plot":"An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger.","Language":"English, Spanish","Country":"United States","Awards":"Won 3 Oscars. 44 wins & 27 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"91%"},{"Source":"Metacritic","Value":"68/100"}],"Metascore":"68","imdbRating":"8.2","imdbVotes":"1,144,780","imdbID":"tt0107290","Type":"movie","DVD":"N/A","BoxOffice":"$407,185,075","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Parasite","Year":"2019","Rated":"R","Released":"08 Nov 2019","Runtime":"132 min","Genre":"Drama, Thriller","Director":"Bong Joon Ho","Writer":"Bong Joon Ho, Han Jin-won","Actors":"Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong","Plot":"Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.","Language":"Korean, English","Country":"South Korea","Awards":"Won 4 Oscars. 309 wins & 260 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.5/10"},{"Source":"Rotten Tomatoes","Value":"99%"},{"Source":"Metacritic","Value":"97/100"}],"Metascore":"97","imdbRating":"8.5","imdbVotes":"1,100,523","imdbID":"tt6751668","Type":"movie","DVD":"N/A","BoxOffice":"$53,847,897","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Akira","Year":"1988","Rated":"R","Released":"16 Jul 1988","Runtime":"124 min","Genre":"Animation, Action, Drama","Director":"Katsuhiro Ôtomo","Writer":"Katsuhiro Ôtomo, Izô Hashimoto","Actors":"Mitsuo Iwata, Nozomu Sasaki, Mami Koyama","Plot":"A secret military project endangers Neo-Tokyo when it turns a teenage biker gang member into a rampaging psychic psychopath who can only be stopped by his best friend.","Language":"Japanese","Country":"Japan","Awards":"1 win total","Poster":"https://m.media-amazon.com/images/M/MV5BYWUxMGRhZDQtMTBmMi00N2IxLWE5NmYtMDMyMWExODAwNWYzXkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"91%"},{"Source":"Metacritic","Value":"68/100"}],"Metascore":"68","imdbRating":"8.0","imdbVotes":"220,198","imdbID":"tt0094625","Type":"movie","DVD":"N/A","BoxOffice":"$553,171","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Ghost in the Shell","Year":"1995","Rated":"TV-MA","Released":"29 Mar 1996","Runtime":"83 min","Genre":"Animation, Action, Crime","Director":"Mamoru Oshii","Writer":"Shirow Masamune, Kazunori Itô","Actors":"Atsuko Tanaka, Iemasa Kayumi, Akio Ôtsuka","Plot":"A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.","Language":"Japanese","Country":"Japan, United Kingdom","Awards":"5 wins & 7 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNzljMjA3MTQtMjM1OS00OGJjLWJiYzctZDRiMTk1NWI5YzQ5XkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.9/10"},{"Source":"Rotten Tomatoes","Value":"95%"},{"Source":"Metacritic","Value":"76/100"}],"Metascore":"76","imdbRating":"7.9","imdbVotes":"167,414","imdbID":"tt0113568","Type":"movie","DVD":"N/A","BoxOffice":"$889,074","Production":"N/A","Website":"N/A","Response":"True"},
-        {"Title":"Flubber","Year":"1997","Rated":"PG","Released":"26 Nov 1997","Runtime":"93 min","Genre":"Comedy, Family, Sci-Fi","Director":"Les Mayfield","Writer":"Samuel W. Taylor, John Hughes, Bill Walsh","Actors":"Robin Williams, Marcia Gay Harden, Christopher McDonald","Plot":"An absent-minded professor discovers \"flubber,\" a rubber-like super-bouncy substance.","Language":"English","Country":"United States","Awards":"3 wins & 2 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTIxNDgwNWUtYzM4OS00NzU4LWFkYjgtZDdlNzBiZjM3YmI0XkEyXkFqcGc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.3/10"},{"Source":"Rotten Tomatoes","Value":"24%"},{"Source":"Metacritic","Value":"38/100"}],"Metascore":"38","imdbRating":"5.3","imdbVotes":"97,679","imdbID":"tt0119137","Type":"movie","DVD":"N/A","BoxOffice":"$92,977,226","Production":"N/A","Website":"N/A","Response":"True"}
-
-
-    ]
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "71/100"
+        }
+      ],
+      "Metascore": "71",
+      "imdbRating": "7.6",
+      "imdbVotes": "18,100",
+      "imdbID": "tt31227572",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$40,000,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Fantastic Four: First Steps",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "25 Jul 2025",
+      "Runtime": "114 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Matt Shakman",
+      "Writer": "Josh Friedman, Eric Pearson, Jeff Kaplan",
+      "Actors": "Pedro Pascal, Vanessa Kirby, Ebon Moss-Bachrach",
+      "Plot": "Forced to balance their roles as heroes with the strength of their family bond, the Fantastic Four must defend Earth from a ravenous space god called Galactus and his enigmatic herald, the Silver Surfer.",
+      "Language": "English",
+      "Country": "United Kingdom, United States, Canada, New Zealand",
+      "Awards": "3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "7.0",
+      "imdbVotes": "174,805",
+      "imdbID": "tt10676052",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$274,282,985",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Bugonia",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "31 Oct 2025",
+      "Runtime": "120 min",
+      "Genre": "Comedy, Crime, Sci-Fi",
+      "Director": "Yorgos Lanthimos",
+      "Writer": "Jang Joon-hwan, Will Tracy",
+      "Actors": "Jesse Plemons, Emma Stone, Alicia Silverstone",
+      "Plot": "Two conspiracy-obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+      "Language": "English",
+      "Country": "Ireland, United Kingdom, Canada, South Korea, United States",
+      "Awards": "2 wins \u0026 3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzIzNWQxMjEtZmQ3MS00OTk2LWFlZjktZDUyYWRkM2M3NWVlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "86%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "72/100"
+        }
+      ],
+      "Metascore": "72",
+      "imdbRating": "7.4",
+      "imdbVotes": "2,099",
+      "imdbID": "tt12300742",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Weapons",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "08 Aug 2025",
+      "Runtime": "128 min",
+      "Genre": "Horror, Mystery",
+      "Director": "Zach Cregger",
+      "Writer": "Zach Cregger",
+      "Actors": "Julia Garner, Josh Brolin, Alden Ehrenreich",
+      "Plot": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 nomination total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTBhNWJjZWItYzY3NS00M2NkLThmOWYtYTlmNzBmN2UxZWFjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "81/100"
+        }
+      ],
+      "Metascore": "81",
+      "imdbRating": "7.5",
+      "imdbVotes": "214,269",
+      "imdbID": "tt26581740",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$151,523,003",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "One Battle After Another",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "26 Sep 2025",
+      "Runtime": "161 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Paul Thomas Anderson",
+      "Writer": "Paul Thomas Anderson, Thomas Pynchon",
+      "Actors": "Leonardo DiCaprio, Sean Penn, Benicio Del Toro",
+      "Plot": "When their evil enemy resurfaces after 16 years, a group of ex-revolutionaries reunite to rescue the daughter of one of their own.",
+      "Language": "English, Spanish",
+      "Country": "United States",
+      "Awards": "3 wins \u0026 2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "8.3",
+      "imdbVotes": "80,634",
+      "imdbID": "tt30144839",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$43,765,663",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Nuremberg",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "07 Nov 2025",
+      "Runtime": "148 min",
+      "Genre": "Drama, History, Thriller",
+      "Director": "James Vanderbilt",
+      "Writer": "Jack El-Hai, James Vanderbilt",
+      "Actors": "Rami Malek, Russell Crowe, Richard E. Grant",
+      "Plot": "A WWII psychiatrist evaluates Nazi leaders before the Nuremberg trials, growing increasingly obsessed with understanding evil as he forms a disturbing bond with Hermann G\u00F6ring.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 win \u0026 4 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjZhNGI0Y2ItNGM3OC00ZTNmLTkyYzgtYWM5MDdlZTMyODI1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "67%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt29567915",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Baramulla",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "07 Nov 2025",
+      "Runtime": "N/A",
+      "Genre": "Horror",
+      "Director": "N/A",
+      "Writer": "N/A",
+      "Actors": "N/A",
+      "Plot": "N/A",
+      "Language": "Hindi",
+      "Country": "India",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt29247040",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Sinners",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "18 Apr 2025",
+      "Runtime": "137 min",
+      "Genre": "Action, Drama, Horror",
+      "Director": "Ryan Coogler",
+      "Writer": "Ryan Coogler",
+      "Actors": "Michael B. Jordan, Miles Caton, Saul Williams",
+      "Plot": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+      "Language": "English, Chinese",
+      "Country": "United States, Australia, Canada",
+      "Awards": "12 wins \u0026 15 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "7.6",
+      "imdbVotes": "288,689",
+      "imdbID": "tt31193180",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$278,578,513",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Superman",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "11 Jul 2025",
+      "Runtime": "129 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "James Gunn",
+      "Writer": "James Gunn, Jerry Siegel, Joe Shuster",
+      "Actors": "David Corenswet, Rachel Brosnahan, Nicholas Hoult",
+      "Plot": "Superman must reconcile his alien Kryptonian heritage with his human upbringing as reporter Clark Kent. As the embodiment of truth, justice and the human way he soon finds himself in a world that views these as old-fashioned.",
+      "Language": "English",
+      "Country": "United States, Canada, Australia, New Zealand",
+      "Awards": "2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "68/100"
+        }
+      ],
+      "Metascore": "68",
+      "imdbRating": "7.1",
+      "imdbVotes": "333,124",
+      "imdbID": "tt5950044",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$354,184,465",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Wicked",
+      "Year": "2024",
+      "Rated": "PG",
+      "Released": "22 Nov 2024",
+      "Runtime": "160 min",
+      "Genre": "Fantasy, Musical, Romance",
+      "Director": "Jon M. Chu",
+      "Writer": "Winnie Holzman, Dana Fox, Gregory Maguire",
+      "Actors": "Cynthia Erivo, Ariana Grande, Jeff Goldblum",
+      "Plot": "Elphaba, a young woman ridiculed for her green skin, and Galinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads.",
+      "Language": "English",
+      "Country": "United Kingdom, United States, Canada",
+      "Awards": "Won 2 Oscars. 125 wins \u0026 322 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWMwYjYzYmMtMWQ2Ni00NWUwLTg2MzAtYzkzMDBiZDIwOTMwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "7.4",
+      "imdbVotes": "185,948",
+      "imdbID": "tt1262426",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$473,231,120",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Chainsaw Man - The Movie: Reze Arc",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "24 Oct 2025",
+      "Runtime": "100 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Tatsuya Yoshihara",
+      "Writer": "Tatsuki Fujimoto, Hiroshi Seko",
+      "Actors": "Kikunosuke Toya, Tomori Kusunoki, Sh\u00F4go Sakata",
+      "Plot": "Denji encounters a new romantic interest, Reze, who works at a coffee caf\u00E9.",
+      "Language": "Japanese",
+      "Country": "Japan",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmMzNGVhODktYmU5MS00MDg1LThlNTEtNTMyYTg5MDA0Njk4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.5",
+      "imdbVotes": "3,800",
+      "imdbID": "tt30472557",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "KPop Demon Hunters",
+      "Year": "2025",
+      "Rated": "PG",
+      "Released": "20 Jun 2025",
+      "Runtime": "95 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Chris Appelhans, Maggie Kang",
+      "Writer": "Danya Jimenez, Hannah McMechan, Maggie Kang",
+      "Actors": "Arden Cho, May Hong, Ji-young Yoo",
+      "Plot": "A world-renowned K-Pop girl group balance their lives in the spotlight with their secret identities as demon hunters.",
+      "Language": "English, Korean",
+      "Country": "United States, Canada",
+      "Awards": "2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "77/100"
+        }
+      ],
+      "Metascore": "77",
+      "imdbRating": "7.6",
+      "imdbVotes": "85,772",
+      "imdbID": "tt14205554",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$18,000,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "It",
+      "Year": "2017",
+      "Rated": "R",
+      "Released": "08 Sep 2017",
+      "Runtime": "135 min",
+      "Genre": "Horror",
+      "Director": "Andy Muschietti",
+      "Writer": "Chase Palmer, Cary Joji Fukunaga, Gary Dauberman",
+      "Actors": "Bill Skarsg\u00E5rd, Jaeden Martell, Finn Wolfhard",
+      "Plot": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+      "Language": "English, Hebrew",
+      "Country": "United States, Canada",
+      "Awards": "12 wins \u0026 49 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGZmOTZjNzUtOTE4OS00OGM3LWJiNGEtZjk4Yzg2M2Q1YzYxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.3",
+      "imdbVotes": "658,909",
+      "imdbID": "tt1396484",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$328,874,981",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Predator: Killer of Killers",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "06 Jun 2025",
+      "Runtime": "85 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Dan Trachtenberg, Joshua Wassung",
+      "Writer": "Micho Robert Rutare, Dan Trachtenberg, Jim Thomas",
+      "Actors": "Michael Biehn, Doug Cockle, Rick Gonzalez",
+      "Plot": "Three of the fiercest warriors in human history become prey to the ultimate killer of killers.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjM2MjA4YzQtYjBkNS00YmU3LTllOTgtMDQzMjkzM2Q4MmM5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "78/100"
+        }
+      ],
+      "Metascore": "78",
+      "imdbRating": "7.5",
+      "imdbVotes": "46,890",
+      "imdbID": "tt36463894",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Kantara A Legend: Chapter 1",
+      "Year": "2025",
+      "Rated": "Not Rated",
+      "Released": "03 Oct 2025",
+      "Runtime": "165 min",
+      "Genre": "Action, Thriller",
+      "Director": "Rishab Shetty",
+      "Writer": "Rishab Shetty",
+      "Actors": "Rishab Shetty, Sapthami Gowda, Sriram Reddy Polasane",
+      "Plot": "Exploring the origins of Kaadubettu Shiva during the Kadamba dynasty era, it delves into the untamed wilderness and forgotten lore surrounding his past.",
+      "Language": "Kannada, Hindi, English, Telugu, Tamil, Malayalam, Bengali",
+      "Country": "India",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDU2ZTYxYTMtMjhlZC00ZjEwLThhNDUtMzdlNWM4ZDcyYTM1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.5",
+      "imdbVotes": "41,331",
+      "imdbID": "tt26439764",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$540,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Substance",
+      "Year": "2024",
+      "Rated": "R",
+      "Released": "20 Sep 2024",
+      "Runtime": "141 min",
+      "Genre": "Drama, Horror, Sci-Fi",
+      "Director": "Coralie Fargeat",
+      "Writer": "Coralie Fargeat",
+      "Actors": "Demi Moore, Margaret Qualley, Dennis Quaid",
+      "Plot": "A fading celebrity takes a black-market drug: a cell-replicating substance that helps her create a younger, better version of herself.",
+      "Language": "English",
+      "Country": "United Kingdom, France",
+      "Awards": "Won 1 Oscar. 144 wins \u0026 285 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "78/100"
+        }
+      ],
+      "Metascore": "78",
+      "imdbRating": "7.2",
+      "imdbVotes": "351,000",
+      "imdbID": "tt17526714",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$17,584,795",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Shawshank Redemption",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "142 min",
+      "Genre": "Drama",
+      "Director": "Frank Darabont",
+      "Writer": "Stephen King, Frank Darabont",
+      "Actors": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "Plot": "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 7 Oscars. 21 wins \u0026 42 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "9.3",
+      "imdbVotes": "3,104,274",
+      "imdbID": "tt0111161",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$28,767,189",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Prey",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "05 Aug 2022",
+      "Runtime": "100 min",
+      "Genre": "Action, Adventure, Horror",
+      "Director": "Dan Trachtenberg",
+      "Writer": "Patrick Aison, Dan Trachtenberg, Jim Thomas",
+      "Actors": "Amber Midthunder, Dakota Beavers, Dane DiLiegro",
+      "Plot": "Naru, a skilled warrior of the Comanche Nation, fights to protect her tribe against one of the first highly-evolved Predators to land on Earth.",
+      "Language": "English, French",
+      "Country": "United States",
+      "Awards": "Won 1 Primetime Emmy. 12 wins \u0026 44 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWVjYTBlYjktODhjZS00OTUyLTg4MzctODI4MTkyNDE5YzY0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "71/100"
+        }
+      ],
+      "Metascore": "71",
+      "imdbRating": "7.1",
+      "imdbVotes": "258,721",
+      "imdbID": "tt11866324",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Back to the Future",
+      "Year": "1985",
+      "Rated": "PG",
+      "Released": "03 Jul 1985",
+      "Runtime": "116 min",
+      "Genre": "Adventure, Comedy, Sci-Fi",
+      "Director": "Robert Zemeckis",
+      "Writer": "Robert Zemeckis, Bob Gale",
+      "Actors": "Michael J. Fox, Christopher Lloyd, Lea Thompson",
+      "Plot": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 27 wins \u0026 25 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "87/100"
+        }
+      ],
+      "Metascore": "87",
+      "imdbRating": "8.5",
+      "imdbVotes": "1,410,143",
+      "imdbID": "tt0088763",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$214,553,307",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Caught Stealing",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "29 Aug 2025",
+      "Runtime": "107 min",
+      "Genre": "Comedy, Crime, Thriller",
+      "Director": "Darren Aronofsky",
+      "Writer": "Charlie Huston",
+      "Actors": "Austin Butler, Regina King, Zo\u00EB Kravitz",
+      "Plot": "Burned-out ex-baseball player Hank Thompson unexpectedly finds himself embroiled in a dangerous struggle for survival amidst the criminal underbelly of 1990s New York City, forced to navigate a treacherous underworld he never imag...",
+      "Language": "English, Spanish, Yiddish",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTk0YTIyYmMtMTJjOC00NmNiLTkxMTktYTU0ZDFhNjJlMTJiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "7.0",
+      "imdbVotes": "44,011",
+      "imdbID": "tt1493274",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$19,005,242",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Roofman",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "10 Oct 2025",
+      "Runtime": "126 min",
+      "Genre": "Biography, Crime, Drama",
+      "Director": "Derek Cianfrance",
+      "Writer": "Derek Cianfrance, Kirt Gunn",
+      "Actors": "Juno Temple, Peter Dinklage, Channing Tatum",
+      "Plot": "A charismatic criminal, while on the run from the police, hides in a hidden space of a toy store. There, he adopts a new identity and becomes involved with an employee, beginning a relationship as unlikely as it is risky.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjU4OTkyN2MtYjI0Mi00MjE3LWFkNTktZDNjODc3OTdiMDdiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "86%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "7.2",
+      "imdbVotes": "2,585",
+      "imdbID": "tt4627382",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$3,250,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "F1: The Movie",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "27 Jun 2025",
+      "Runtime": "155 min",
+      "Genre": "Action, Drama, Sport",
+      "Director": "Joseph Kosinski",
+      "Writer": "Joseph Kosinski, Ehren Kruger",
+      "Actors": "Brad Pitt, Damson Idris, Javier Bardem",
+      "Plot": "A Formula One driver comes out of retirement to mentor and team up with a younger driver.",
+      "Language": "English, Spanish, German, Italian",
+      "Country": "United States",
+      "Awards": "1 win \u0026 8 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTYwYjJhNzYtY2ZiZS00ZmYxLWJkZjctYjRlNGIxYjI3ZTU0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "82%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "68/100"
+        }
+      ],
+      "Metascore": "68",
+      "imdbRating": "7.7",
+      "imdbVotes": "231,942",
+      "imdbID": "tt16311594",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$189,527,111",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Bring Her Back",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "30 May 2025",
+      "Runtime": "104 min",
+      "Genre": "Horror, Mystery",
+      "Director": "Danny Philippou, Michael Philippou",
+      "Writer": "Danny Philippou, Bill Hinzman",
+      "Actors": "Billy Barratt, Sally Hawkins, Mischa Heywood",
+      "Plot": "A brother and sister uncover a terrifying ritual at the secluded home of their new foster mother.",
+      "Language": "English, Russian",
+      "Country": "Australia",
+      "Awards": "1 win \u0026 7 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "75/100"
+        }
+      ],
+      "Metascore": "75",
+      "imdbRating": "7.2",
+      "imdbVotes": "78,142",
+      "imdbID": "tt32246771",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$19,323,752",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Ek Chatur Naar",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "12 Sep 2025",
+      "Runtime": "N/A",
+      "Genre": "Comedy",
+      "Director": "Umesh Shukla",
+      "Writer": "Siddharth Goel, Jay Master, Deepak Nirman",
+      "Actors": "Geeta Agrawal Sharma, Sushant Singh, Yashpal Sharma",
+      "Plot": "",
+      "Language": "Hindi",
+      "Country": "India",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTBkZTI5NGYtNGMwNS00Mzg5LWI1ZGItZDA3MWY4NjUyZWUwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt37970307",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Godfather",
+      "Year": "1972",
+      "Rated": "R",
+      "Released": "24 Mar 1972",
+      "Runtime": "175 min",
+      "Genre": "Crime, Drama",
+      "Director": "Francis Ford Coppola",
+      "Writer": "Mario Puzo, Francis Ford Coppola",
+      "Actors": "Marlon Brando, Al Pacino, James Caan",
+      "Plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "Language": "English, Italian, Latin",
+      "Country": "United States",
+      "Awards": "Won 3 Oscars. 31 wins \u0026 31 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "100/100"
+        }
+      ],
+      "Metascore": "100",
+      "imdbRating": "9.2",
+      "imdbVotes": "2,169,748",
+      "imdbID": "tt0068646",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$136,381,073",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Lokah Chapter One: Chandra",
+      "Year": "2025",
+      "Rated": "Not Rated",
+      "Released": "28 Aug 2025",
+      "Runtime": "151 min",
+      "Genre": "Action, Fantasy",
+      "Director": "Dominic Arun",
+      "Writer": "Dominic Arun, Santhy Balachandran",
+      "Actors": "Kalyani Priyadarshan, Naslen, Sandy Master",
+      "Plot": "Chandra, a young woman, arrives in Bengaluru with a mission. Her neighbor, Sunny, sets out to unravel the mystery about her and they are on an unexpected adventure ride together.",
+      "Language": "Malayalam, Tamil, Telugu, Kannada, Hindi",
+      "Country": "India",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWFkMGFmNTQtOTUwYS00NDFkLWFkNDAtZjA4ODliYTc2MmFmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.1",
+      "imdbVotes": "10,615",
+      "imdbID": "tt33372494",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Demon Slayer: Kimetsu no Yaiba- The Movie - Infinity Castle",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "12 Sep 2025",
+      "Runtime": "155 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Haruo Sotozaki, Hikaru Kond\u00F4",
+      "Writer": "Koyoharu Gotouge, Hikaru Kond\u00F4",
+      "Actors": "Zach Aguilar, Ryan Bartley, Johnny Yong Bosch",
+      "Plot": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+      "Language": "Japanese",
+      "Country": "Japan, United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOGQ3YWUzYjEtMTJiYy00ZjQ0LWI0YjktYjhiNGVhNGExYTM3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "8.5",
+      "imdbVotes": "43,310",
+      "imdbID": "tt32820897",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$125,097,757",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Predator",
+      "Year": "1987",
+      "Rated": "R",
+      "Released": "12 Jun 1987",
+      "Runtime": "107 min",
+      "Genre": "Action, Adventure, Horror",
+      "Director": "John McTiernan",
+      "Writer": "Jim Thomas, John Thomas",
+      "Actors": "Arnold Schwarzenegger, Carl Weathers, Kevin Peter Hall",
+      "Plot": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
+      "Language": "English, Spanish, Russian",
+      "Country": "United States, Mexico",
+      "Awards": "Nominated for 1 Oscar. 3 wins \u0026 6 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWEzMDI0MTUtMjQ0Yy00MGRhLWI4YjAtZTgzZTM3NTYxZGJkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "81%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "47/100"
+        }
+      ],
+      "Metascore": "47",
+      "imdbRating": "7.8",
+      "imdbVotes": "481,048",
+      "imdbID": "tt0093773",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$59,735,548",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Harry Potter and the Sorcerer\u0027s Stone",
+      "Year": "2001",
+      "Rated": "PG",
+      "Released": "16 Nov 2001",
+      "Runtime": "152 min",
+      "Genre": "Adventure, Family, Fantasy",
+      "Director": "Chris Columbus",
+      "Writer": "J.K. Rowling, Steve Kloves",
+      "Actors": "Daniel Radcliffe, Rupert Grint, Emma Watson",
+      "Plot": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+      "Language": "English, Latin",
+      "Country": "United Kingdom, United States",
+      "Awards": "Nominated for 3 Oscars. 20 wins \u0026 74 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "80%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "7.7",
+      "imdbVotes": "921,510",
+      "imdbID": "tt0241527",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$318,886,962",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Mission: Impossible - The Final Reckoning",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "23 May 2025",
+      "Runtime": "169 min",
+      "Genre": "Action, Adventure, Thriller",
+      "Director": "Christopher McQuarrie",
+      "Writer": "Bruce Geller, Christopher McQuarrie, Erik Jendresen",
+      "Actors": "Tom Cruise, Hayley Atwell, Ving Rhames",
+      "Plot": "Hunt and the IMF pursue a dangerous AI called the Entity that\u0027s infiltrated global intelligence. With governments and a figure from his past in pursuit, Hunt races to stop it from forever changing the world.",
+      "Language": "English, French, Russian, Inuktitut",
+      "Country": "United States, Norway",
+      "Awards": "6 wins \u0026 3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "80%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "7.2",
+      "imdbVotes": "175,877",
+      "imdbID": "tt9603208",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$197,413,515",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Rated": "PG-13",
+      "Released": "07 Nov 2014",
+      "Runtime": "169 min",
+      "Genre": "Adventure, Drama, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan",
+      "Actors": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "Plot": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+      "Language": "English",
+      "Country": "United States, United Kingdom, Canada",
+      "Awards": "Won 1 Oscar. 44 wins \u0026 148 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "73%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,423,918",
+      "imdbID": "tt0816692",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$203,227,580",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Inglourious Basterds",
+      "Year": "2009",
+      "Rated": "R",
+      "Released": "21 Aug 2009",
+      "Runtime": "153 min",
+      "Genre": "Adventure, Drama, War",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino",
+      "Actors": "Brad Pitt, Diane Kruger, Eli Roth",
+      "Plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner\u0027s vengeful plans for the same.",
+      "Language": "English, German, French, Italian",
+      "Country": "United States, Germany",
+      "Awards": "Won 1 Oscar. 134 wins \u0026 173 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "8.4",
+      "imdbVotes": "1,712,358",
+      "imdbID": "tt0361748",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$120,540,719",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Thunderbolts*",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "02 May 2025",
+      "Runtime": "127 min",
+      "Genre": "Action, Adventure, Crime",
+      "Director": "Jake Schreier",
+      "Writer": "Eric Pearson, Joanna Calo, Kurt Busiek",
+      "Actors": "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus",
+      "Plot": "After finding themselves ensnared in a death trap, an unconventional team of antiheroes must go on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+      "Language": "English, Russian, Italian",
+      "Country": "United States, Australia, Canada",
+      "Awards": "3 wins \u0026 13 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWE2NmNmYTItZGY0ZC00MmY2LTk1NDAtMGUyMGEzMjcxNWM0XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "68/100"
+        }
+      ],
+      "Metascore": "68",
+      "imdbRating": "7.1",
+      "imdbVotes": "235,360",
+      "imdbID": "tt20969586",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$190,274,328",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Poor Things",
+      "Year": "2023",
+      "Rated": "R",
+      "Released": "22 Dec 2023",
+      "Runtime": "141 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Yorgos Lanthimos",
+      "Writer": "Tony McNamara, Alasdair Gray",
+      "Actors": "Emma Stone, Mark Ruffalo, Willem Dafoe",
+      "Plot": "An account of the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+      "Language": "English, French, Portuguese",
+      "Country": "Ireland, United Kingdom, United States, Hungary",
+      "Awards": "Won 4 Oscars. 120 wins \u0026 426 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWU2MjRjZTYtMjVkMS00MTBjLWFiMTAtYmZlYTk1YjkyMWFkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "88/100"
+        }
+      ],
+      "Metascore": "88",
+      "imdbRating": "7.8",
+      "imdbVotes": "356,485",
+      "imdbID": "tt14230458",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$34,553,225",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "How to Train Your Dragon",
+      "Year": "2025",
+      "Rated": "PG",
+      "Released": "13 Jun 2025",
+      "Runtime": "125 min",
+      "Genre": "Action, Adventure, Comedy",
+      "Director": "Dean DeBlois",
+      "Writer": "Dean DeBlois, Cressida Cowell, William Davies",
+      "Actors": "Mason Thames, Nico Parker, Gerard Butler",
+      "Plot": "As an ancient threat endangers both Vikings and dragons alike on the isle of Berk, the friendship between Hiccup, an inventive Viking, and Toothless, a Night Fury dragon, becomes the key to both species forging a new future together.",
+      "Language": "English",
+      "Country": "United States, United Kingdom, Ireland, Iceland, Canada",
+      "Awards": "1 win \u0026 2 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "77%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "61/100"
+        }
+      ],
+      "Metascore": "61",
+      "imdbRating": "7.8",
+      "imdbVotes": "106,874",
+      "imdbID": "tt26743210",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$262,958,100",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Inception",
+      "Year": "2010",
+      "Rated": "PG-13",
+      "Released": "16 Jul 2010",
+      "Runtime": "148 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "Language": "English, Japanese, French",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 159 wins \u0026 220 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,743,035",
+      "imdbID": "tt1375666",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$292,587,330",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Now You See Me",
+      "Year": "2013",
+      "Rated": "PG-13",
+      "Released": "31 May 2013",
+      "Runtime": "115 min",
+      "Genre": "Crime, Mystery, Thriller",
+      "Director": "Louis Leterrier",
+      "Writer": "Ed Solomon, Boaz Yakin, Edward Ricourt",
+      "Actors": "Jesse Eisenberg, Common, Mark Ruffalo",
+      "Plot": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+      "Language": "English, French",
+      "Country": "United States, France",
+      "Awards": "1 win \u0026 3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "51%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "50/100"
+        }
+      ],
+      "Metascore": "50",
+      "imdbRating": "7.2",
+      "imdbVotes": "750,270",
+      "imdbID": "tt1670345",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$117,723,989",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Downton Abbey: The Grand Finale",
+      "Year": "2025",
+      "Rated": "PG",
+      "Released": "12 Sep 2025",
+      "Runtime": "123 min",
+      "Genre": "Drama",
+      "Director": "Simon Curtis",
+      "Writer": "Julian Fellowes",
+      "Actors": "Michelle Dockery, Joanne Froggatt, Paul Giamatti",
+      "Plot": "When Mary finds herself in a public scandal and the family faces financial trouble, the household grapples with the threat of social disgrace. The Crawleys must embrace change with the next generation leading Downton Abbey into th...",
+      "Language": "English",
+      "Country": "United Kingdom, United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTUxOWRkN2UtZjBlMS00NWU0LWE2M2ItZmY5MDJjMzlhYTk4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "66/100"
+        }
+      ],
+      "Metascore": "66",
+      "imdbRating": "7.5",
+      "imdbVotes": "7,753",
+      "imdbID": "tt31888477",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$43,066,055",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Home Alone",
+      "Year": "1990",
+      "Rated": "PG",
+      "Released": "16 Nov 1990",
+      "Runtime": "103 min",
+      "Genre": "Comedy, Family",
+      "Director": "Chris Columbus",
+      "Writer": "John Hughes",
+      "Actors": "Macaulay Culkin, Joe Pesci, Daniel Stern",
+      "Plot": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
+      "Language": "English, French",
+      "Country": "United States",
+      "Awards": "Nominated for 2 Oscars. 12 wins \u0026 7 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzNmNmQ2ZDEtMTc1MS00NjNiLThlMGUtZmQxNTg1Nzg5NWMzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "66%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "63/100"
+        }
+      ],
+      "Metascore": "63",
+      "imdbRating": "7.7",
+      "imdbVotes": "708,642",
+      "imdbID": "tt0099785",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$285,761,243",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Kill Bill: The Whole Bloody Affair",
+      "Year": "2006",
+      "Rated": "Not Rated",
+      "Released": "27 Mar 2011",
+      "Runtime": "247 min",
+      "Genre": "Action, Crime, Thriller",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Uma Thurman",
+      "Actors": "Uma Thurman, Lucy Liu, Vivica A. Fox",
+      "Plot": "The Bride must kill her ex-boss and lover Bill who betrayed her at her wedding rehearsal, shot her in the head and took away her unborn daughter. But first, she must make the other four members of the Deadly Viper Assassination Sq...",
+      "Language": "English, Japanese, Mandarin, French, Cantonese, Spanish",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDQ5N2U5Y2QtMzA4Ny00MTBiLTg4NzUtNTFjMjNkMDg1MGI4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.7",
+      "imdbVotes": "18,364",
+      "imdbID": "tt6019206",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Sentimental Value",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "20 Aug 2025",
+      "Runtime": "133 min",
+      "Genre": "Drama",
+      "Director": "Joachim Trier",
+      "Writer": "Joachim Trier, Eskil Vogt",
+      "Actors": "Renate Reinsve, Stellan Skarsg\u00E5rd, Inga Ibsdotter Lilleaas",
+      "Plot": "An intimate exploration of family, memories, and the reconciliatory power of art.",
+      "Language": "Norwegian, English",
+      "Country": "Norway, Germany, Denmark, France, Sweden, United Kingdom, Turkey",
+      "Awards": "3 wins \u0026 6 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTMwMTk0Y2QtY2VhNy00OGYwLThkMjMtZjkwMGI3MTJiMjAyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "96%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "88/100"
+        }
+      ],
+      "Metascore": "88",
+      "imdbRating": "7.7",
+      "imdbVotes": "1,431",
+      "imdbID": "tt27714581",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "Rated": "PG-13",
+      "Released": "18 Jul 2008",
+      "Runtime": "152 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
+      "Actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "Plot": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
+      "Language": "English, Mandarin",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 2 Oscars. 163 wins \u0026 165 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "85/100"
+        }
+      ],
+      "Metascore": "85",
+      "imdbRating": "9.1",
+      "imdbVotes": "3,087,450",
+      "imdbID": "tt0468569",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$534,987,076",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Pan\u0027s Labyrinth",
+      "Year": "2006",
+      "Rated": "R",
+      "Released": "19 Jan 2007",
+      "Runtime": "118 min",
+      "Genre": "Drama, Fantasy, War",
+      "Director": "Guillermo del Toro",
+      "Writer": "Guillermo del Toro",
+      "Actors": "Ivana Baquero, Ariadna Gil, Sergi L\u00F3pez",
+      "Plot": "In 1944 Spain, a girl is sent to live with her ruthless stepfather. During the night, she meets a fairy who takes her to an old faun. He tells her she\u0027s a princess, but must prove her royalty by surviving three gruesome tasks.",
+      "Language": "Spanish",
+      "Country": "Mexico, Spain",
+      "Awards": "Won 3 Oscars. 109 wins \u0026 115 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTc1NTAxMWItMWFlNy00MmU2LTkwMTMtNzMwOTg5OTQ5YTFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "98/100"
+        }
+      ],
+      "Metascore": "98",
+      "imdbRating": "8.2",
+      "imdbVotes": "735,103",
+      "imdbID": "tt0457430",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$37,646,380",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Nosferatu",
+      "Year": "2024",
+      "Rated": "R",
+      "Released": "25 Dec 2024",
+      "Runtime": "132 min",
+      "Genre": "Fantasy, Horror, Mystery",
+      "Director": "Robert Eggers",
+      "Writer": "Robert Eggers, Henrik Galeen, Bram Stoker",
+      "Actors": "Lily-Rose Depp, Nicholas Hoult, Bill Skarsg\u00E5rd",
+      "Plot": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+      "Language": "English, Romanian, Romany, Russian, Latin, German",
+      "Country": "United States",
+      "Awards": "Nominated for 4 Oscars. 58 wins \u0026 195 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2FhZGE3NmEtNWJjOC00NDI1LWFhMTQtMjcxNmQzZmEwNGIzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "78/100"
+        }
+      ],
+      "Metascore": "78",
+      "imdbRating": "7.2",
+      "imdbVotes": "235,996",
+      "imdbID": "tt5040012",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$95,608,235",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "A Time to Kill",
+      "Year": "1996",
+      "Rated": "R",
+      "Released": "24 Jul 1996",
+      "Runtime": "149 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Joel Schumacher",
+      "Writer": "John Grisham, Akiva Goldsman",
+      "Actors": "Matthew McConaughey, Sandra Bullock, Samuel L. Jackson",
+      "Plot": "A young Mississippi lawyer defends a black man who killed the two white men that raped his preteen daughter.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "7 wins \u0026 12 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmNiYzY1N2ItZDZiNC00ZGMyLWJlZjktZDE1MDI3NDBlYjE5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "66%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "53/100"
+        }
+      ],
+      "Metascore": "53",
+      "imdbRating": "7.5",
+      "imdbVotes": "192,181",
+      "imdbID": "tt0117913",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$108,766,007",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Year": "2001",
+      "Rated": "PG-13",
+      "Released": "19 Dec 2001",
+      "Runtime": "178 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "Peter Jackson",
+      "Writer": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
+      "Actors": "Elijah Wood, Ian McKellen, Orlando Bloom",
+      "Plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "Language": "English, Sindarin",
+      "Country": "New Zealand, United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 125 wins \u0026 126 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "92/100"
+        }
+      ],
+      "Metascore": "92",
+      "imdbRating": "8.9",
+      "imdbVotes": "2,145,663",
+      "imdbID": "tt0120737",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$319,372,078",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Remember the Titans",
+      "Year": "2000",
+      "Rated": "PG",
+      "Released": "29 Sep 2000",
+      "Runtime": "113 min",
+      "Genre": "Biography, Comedy, Drama",
+      "Director": "Boaz Yakin",
+      "Writer": "Gregory Allen Howard",
+      "Actors": "Denzel Washington, Will Patton, Wood Harris",
+      "Plot": "In 1971, Virginia high-school football was everything to the people of Alexandria, but when the school board was forced to integrate an all-Black school with an all-white one, the foundation of football\u0027s tradition was put to the ...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "8 wins \u0026 17 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWY0NzgxMWQtMjM4NC00MjRiLWE0YjctYTFiNjA2NTNkZGY1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "72%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "48/100"
+        }
+      ],
+      "Metascore": "48",
+      "imdbRating": "7.8",
+      "imdbVotes": "243,588",
+      "imdbID": "tt0210945",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$115,719,751",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Perfect Neighbor",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "17 Oct 2025",
+      "Runtime": "96 min",
+      "Genre": "Documentary, Crime, Drama",
+      "Director": "Geeta Gandbhir",
+      "Writer": "N/A",
+      "Actors": "N/A",
+      "Plot": "A minor disagreement between neighbors in Florida takes a lethal turn, with police body camera footage and interviews probing the aftermath of the state\u0027s controversial \u0022stand your ground\u0022 laws.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "2 wins \u0026 4 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmYxZjA5YmItMjJkYi00NzllLWJjMzgtZjFjZjBlZGQwMmRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "100%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "87/100"
+        }
+      ],
+      "Metascore": "87",
+      "imdbRating": "N/A",
+      "imdbVotes": "146",
+      "imdbID": "tt34962891",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Shining",
+      "Year": "1980",
+      "Rated": "R",
+      "Released": "13 Jun 1980",
+      "Runtime": "146 min",
+      "Genre": "Drama, Horror",
+      "Director": "Stanley Kubrick",
+      "Writer": "Stephen King, Stanley Kubrick, Diane Johnson",
+      "Actors": "Jack Nicholson, Shelley Duvall, Danny Lloyd",
+      "Plot": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future.",
+      "Language": "English",
+      "Country": "United Kingdom, United States",
+      "Awards": "6 wins \u0026 9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "68/100"
+        }
+      ],
+      "Metascore": "68",
+      "imdbRating": "8.4",
+      "imdbVotes": "1,190,174",
+      "imdbID": "tt0081505",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$45,634,352",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Tenet",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "03 Sep 2020",
+      "Runtime": "150 min",
+      "Genre": "Action, Sci-Fi, Thriller",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "John David Washington, Robert Pattinson, Elizabeth Debicki",
+      "Plot": "Armed with only the word \u0022Tenet,\u0022 and fighting for the survival of the entire world, CIA operative, The Protagonist, journeys through a twilight world of international espionage on a global mission that unfolds beyond real time.",
+      "Language": "English",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 1 Oscar. 49 wins \u0026 134 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTIzNDIxMzktMzlkMi00MmUyLWFmMjQtZDgwMjBmOGJmNTI3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "70%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.3",
+      "imdbVotes": "646,733",
+      "imdbID": "tt6723592",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$58,504,105",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Oppenheimer",
+      "Year": "2023",
+      "Rated": "R",
+      "Released": "21 Jul 2023",
+      "Runtime": "180 min",
+      "Genre": "Biography, Drama, History",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan, Kai Bird, Martin Sherwin",
+      "Actors": "Cillian Murphy, Emily Blunt, Matt Damon",
+      "Plot": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.",
+      "Language": "English, German, Italian, Dutch",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 7 Oscars. 364 wins \u0026 373 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "8.3",
+      "imdbVotes": "945,602",
+      "imdbID": "tt15398776",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$330,078,895",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Sisu: Road to Revenge",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "21 Nov 2025",
+      "Runtime": "88 min",
+      "Genre": "Action, War",
+      "Director": "Jalmari Helander",
+      "Writer": "Jalmari Helander",
+      "Actors": "Stephen Lang, Richard Brake, Jorma Tommila",
+      "Plot": "A man returns to dismantle his family\u0027s house, where they were murdered in war, to rebuild it elsewhere. When the killer, a Red Army commander, tracks him down, a brutal cross-country pursuit begins.",
+      "Language": "English, Finnish",
+      "Country": "Finland, United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2ZiNDZiZDQtMjYyOC00MWY1LTkyZjgtNDM1MmMwZTdhOWFkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "N/A",
+      "imdbVotes": "289",
+      "imdbID": "tt31844586",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Doctor Sleep",
+      "Year": "2019",
+      "Rated": "R",
+      "Released": "08 Nov 2019",
+      "Runtime": "152 min",
+      "Genre": "Drama, Fantasy, Horror",
+      "Director": "Mike Flanagan",
+      "Writer": "Mike Flanagan, Stephen King",
+      "Actors": "Ewan McGregor, Rebecca Ferguson, Kyliegh Curran",
+      "Plot": "Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
+      "Language": "English, Persian",
+      "Country": "Canada, United States",
+      "Awards": "9 wins \u0026 37 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGUyNTg0NWItODdkZS00YWY0LTljNjItMDYwMTI1ZmZkMjExXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "78%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "59/100"
+        }
+      ],
+      "Metascore": "59",
+      "imdbRating": "7.3",
+      "imdbVotes": "233,552",
+      "imdbID": "tt5606664",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$31,581,712",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Rental Family",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "21 Nov 2025",
+      "Runtime": "N/A",
+      "Genre": "Comedy, Drama",
+      "Director": "Hikari",
+      "Writer": "Stephen Blahut, Hikari",
+      "Actors": "Brendan Fraser, Takehiro Hira, Mari Yamamoto",
+      "Plot": "Japanese rental company hires struggling American actor in Tokyo. He plays various roles in clients\u0027 lives, embarking on an introspective journey through these unlikely experiences.",
+      "Language": "English",
+      "Country": "Japan, United States",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt14142060",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Silence of the Lambs",
+      "Year": "1991",
+      "Rated": "R",
+      "Released": "14 Feb 1991",
+      "Runtime": "118 min",
+      "Genre": "Crime, Drama, Horror",
+      "Director": "Jonathan Demme",
+      "Writer": "Thomas Harris, Ted Tally",
+      "Actors": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+      "Plot": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+      "Language": "English, Latin",
+      "Country": "United States",
+      "Awards": "Won 5 Oscars. 71 wins \u0026 50 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "86/100"
+        }
+      ],
+      "Metascore": "86",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,667,162",
+      "imdbID": "tt0102926",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$130,742,922",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Eternity",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "26 Nov 2025",
+      "Runtime": "112 min",
+      "Genre": "Comedy, Drama, Fantasy",
+      "Director": "David Freyne",
+      "Writer": "Patrick Cunnane, David Freyne",
+      "Actors": "Miles Teller, Elizabeth Olsen, Callum Turner",
+      "Plot": "In an afterlife where souls have one week to decide where to spend eternity, Joan is faced with the impossible choice between the man she spent her life with and her first love, who died young and has waited decades for her to arr...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzlmZTNiOTAtNzhlOC00ZTA1LWJhNTgtMDQ4YmY4NWIyNTA4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "64/100"
+        }
+      ],
+      "Metascore": "64",
+      "imdbRating": "7.3",
+      "imdbVotes": "227",
+      "imdbID": "tt24950660",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Se7en",
+      "Year": "1995",
+      "Rated": "R",
+      "Released": "22 Sep 1995",
+      "Runtime": "127 min",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "David Fincher",
+      "Writer": "Andrew Kevin Walker",
+      "Actors": "Morgan Freeman, Brad Pitt, Kevin Spacey",
+      "Plot": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 29 wins \u0026 44 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,963,169",
+      "imdbID": "tt0114369",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$101,040,643",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Heretic",
+      "Year": "2024",
+      "Rated": "R",
+      "Released": "08 Nov 2024",
+      "Runtime": "111 min",
+      "Genre": "Horror, Thriller",
+      "Director": "Scott Beck, Bryan Woods",
+      "Writer": "Scott Beck, Bryan Woods",
+      "Actors": "Hugh Grant, Sophie Thatcher, Chloe East",
+      "Plot": "Two young religious women are drawn into a game of cat-and-mouse in the house of a strange man.",
+      "Language": "English",
+      "Country": "United States, Canada",
+      "Awards": "Nominated for 1 BAFTA Award4 wins \u0026 38 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzFiMWM4YjAtY2Y3Yi00MDIzLTk0N2MtYTAwNGM3ZmMwODhlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "71/100"
+        }
+      ],
+      "Metascore": "71",
+      "imdbRating": "7.0",
+      "imdbVotes": "194,544",
+      "imdbID": "tt28015403",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$27,986,380",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Ugly Stepsister",
+      "Year": "2025",
+      "Rated": "Not Rated",
+      "Released": "07 Mar 2025",
+      "Runtime": "109 min",
+      "Genre": "Comedy, Drama, Horror",
+      "Director": "Emilie Blichfeldt",
+      "Writer": "Emilie Blichfeldt",
+      "Actors": "Lea Myren, Ane Dahl Torp, Thea Sofie Loch N\u00E6ss",
+      "Plot": "Elvira battles against her gorgeous stepsister in a realm where beauty reigns supreme. She resorts to extreme measures to captivate the prince, amid a ruthless competition for physical perfection.",
+      "Language": "Norwegian, Polish, Swedish",
+      "Country": "Norway, Denmark, Romania, Poland, Sweden",
+      "Awards": "4 wins \u0026 10 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzk2MjdkZDMtNmU0ZC00ZTEyLTk0ZTAtZDM1MmFhNDdhMjFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "96%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "70/100"
+        }
+      ],
+      "Metascore": "70",
+      "imdbRating": "7.0",
+      "imdbVotes": "25,939",
+      "imdbID": "tt29344903",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$308,555",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "O Agente Secreto",
+      "Year": "2025",
+      "Rated": "N/A",
+      "Released": "N/A",
+      "Runtime": "N/A",
+      "Genre": "Drama, Thriller",
+      "Director": "Kleber Mendon\u00E7a Filho",
+      "Writer": "Kleber Mendon\u00E7a Filho",
+      "Actors": "Wagner Moura, Maria Fernanda C\u00E2ndido",
+      "Plot": "Under the threatening specter of 1977 Brazil, we meet Armando, a man in his 40s who recently moved to Recife, on the northeastern coast of Brazil, to escape a violent past.",
+      "Language": "N/A",
+      "Country": "Brazil",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt27847051",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Train Dreams",
+      "Year": "2025",
+      "Rated": "PG-13",
+      "Released": "21 Nov 2025",
+      "Runtime": "102 min",
+      "Genre": "Drama",
+      "Director": "Clint Bentley",
+      "Writer": "Clint Bentley, Denis Johnson, Greg Kwedar",
+      "Actors": "Kerry Condon, Felicity Jones, Joel Edgerton",
+      "Plot": "Based on Denis Johnson\u0027s beloved novella, Train Dreams is the moving portrait of Robert Grainier, a logger and railroad worker who leads a life of unexpected depth and beauty in the rapidly-changing America of the early 20th Century.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 win \u0026 3 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDkzNzkyNTktYzNhMi00YjhiLWI5YmUtZjliMTY0ZDc5NmMyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "86/100"
+        }
+      ],
+      "Metascore": "86",
+      "imdbRating": "7.4",
+      "imdbVotes": "365",
+      "imdbID": "tt29768334",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Green Mile",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "10 Dec 1999",
+      "Runtime": "189 min",
+      "Genre": "Crime, Drama, Fantasy",
+      "Director": "Frank Darabont",
+      "Writer": "Stephen King, Frank Darabont",
+      "Actors": "Tom Hanks, Michael Clarke Duncan, David Morse",
+      "Plot": "A death row guard learns that a gentle giant in his charge possesses a mysterious gift.",
+      "Language": "English, French",
+      "Country": "United States",
+      "Awards": "Nominated for 4 Oscars. 15 wins \u0026 37 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "78%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "61/100"
+        }
+      ],
+      "Metascore": "61",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,511,405",
+      "imdbID": "tt0120689",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$136,801,374",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Heat",
+      "Year": "1995",
+      "Rated": "R",
+      "Released": "15 Dec 1995",
+      "Runtime": "170 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Michael Mann",
+      "Writer": "Michael Mann",
+      "Actors": "Al Pacino, Robert De Niro, Val Kilmer",
+      "Plot": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.",
+      "Language": "English, Spanish",
+      "Country": "United States",
+      "Awards": "15 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "76/100"
+        }
+      ],
+      "Metascore": "76",
+      "imdbRating": "8.3",
+      "imdbVotes": "777,354",
+      "imdbID": "tt0113277",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$67,436,818",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "154 min",
+      "Genre": "Crime, Drama",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "Plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "Language": "English, Spanish, French",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 69 wins \u0026 72 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,379,864",
+      "imdbID": "tt0110912",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$107,928,762",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Sorry, Baby",
+      "Year": "2025",
+      "Rated": "R",
+      "Released": "25 Jul 2025",
+      "Runtime": "103 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Eva Victor",
+      "Writer": "Eva Victor",
+      "Actors": "Eva Victor, Naomi Ackie, Louis Cancelmi",
+      "Plot": "Something bad happened to Agnes. But life goes on - for everyone around her, at least.",
+      "Language": "English",
+      "Country": "United States, Spain, France",
+      "Awards": "2 wins \u0026 10 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzJhZWNiMTktNjdiMi00ZTFkLTg5OTAtYzdiZjZjNDBlMmFhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "89/100"
+        }
+      ],
+      "Metascore": "89",
+      "imdbRating": "7.1",
+      "imdbVotes": "7,031",
+      "imdbID": "tt32843349",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$2,347,089",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Monster",
+      "Year": "2003",
+      "Rated": "R",
+      "Released": "30 Jan 2004",
+      "Runtime": "109 min",
+      "Genre": "Biography, Crime, Drama",
+      "Director": "Patty Jenkins",
+      "Writer": "Patty Jenkins",
+      "Actors": "Charlize Theron, Christina Ricci, Bruce Dern",
+      "Plot": "Based on the life of Aileen Wuornos, a Daytona Beach prostitute who became a serial killer.",
+      "Language": "English",
+      "Country": "United States, Germany",
+      "Awards": "Won 1 Oscar. 31 wins \u0026 26 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI4NzI5NzEwNl5BMl5BanBnXkFtZTcwNjc1NjQyMQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "81%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "7.3",
+      "imdbVotes": "170,080",
+      "imdbID": "tt0340855",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$34,469,210",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Life of Chuck",
+      "Year": "2024",
+      "Rated": "R",
+      "Released": "13 Jun 2025",
+      "Runtime": "111 min",
+      "Genre": "Drama, Fantasy, Sci-Fi",
+      "Director": "Mike Flanagan",
+      "Writer": "Mike Flanagan, Stephen King",
+      "Actors": "Tom Hiddleston, Jacob Tremblay, Benjamin Pajak",
+      "Plot": "A life-affirming, genre-bending story about three chapters in the life of an ordinary man named Charles Krantz.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "1 win \u0026 5 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDhlMzJhMTgtN2FhZS00OWQ1LTk3Y2ItZGNiNTQ0ZmUzYmIzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "80%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "7.3",
+      "imdbVotes": "35,834",
+      "imdbID": "tt12908150",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$6,712,600",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Fight Club",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "15 Oct 1999",
+      "Runtime": "139 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "David Fincher",
+      "Writer": "Chuck Palahniuk, Jim Uhls",
+      "Actors": "Brad Pitt, Edward Norton, Meat Loaf",
+      "Plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "Language": "English",
+      "Country": "United States, Germany",
+      "Awards": "Nominated for 1 Oscar. 12 wins \u0026 38 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "81%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,518,290",
+      "imdbID": "tt0137523",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$37,030,102",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Mummy",
+      "Year": "1999",
+      "Rated": "PG-13",
+      "Released": "07 May 1999",
+      "Runtime": "124 min",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "Stephen Sommers",
+      "Writer": "Stephen Sommers, Lloyd Fonvielle, Kevin Jarre",
+      "Actors": "Brendan Fraser, Rachel Weisz, John Hannah",
+      "Plot": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
+      "Language": "English, Egyptian (Ancient), Arabic, Chinese, Hebrew, Hungarian",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 5 wins \u0026 24 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY4YWE0OGMtNjU0Yi00YzIwLTk3NTktM2ZiYWQwNjM4MmMxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "63%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "48/100"
+        }
+      ],
+      "Metascore": "48",
+      "imdbRating": "7.1",
+      "imdbVotes": "489,354",
+      "imdbID": "tt0120616",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$157,095,368",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
+  ]
 }

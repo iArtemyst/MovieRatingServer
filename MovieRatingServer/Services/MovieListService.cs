@@ -7,6 +7,7 @@ namespace MovieRatingServer.Services;
 public class MovieListService : IMovieListService
 {
     private readonly List<MovieInfo> _movies;
+    private DateTime _date;
     private readonly Random _rng;
 
     public MovieListService(IWebHostEnvironment env)
@@ -29,15 +30,60 @@ public class MovieListService : IMovieListService
         }
     }
 
-    public int GetRadomValueBetween0AndX(int x)
+    private int DailyIndex()
     {
-        return _rng.Next(0, x);
+        if (_date == default)
+        {
+            _date = DateTime.Now;
+            return 0;
+        }
+        var elapsed = DateTime.Now - _date;
+        int minutesPassed = (int)elapsed.TotalMinutes;
+
+        return minutesPassed;
     }
 
-    public MovieInfo GetRandomMovie()
+
+    private MovieInfo GetMovieAt(int index)
     {
-        return _movies[_rng.Next(_movies.Count)];
+        return _movies[index];
     }
+
+    private int[] GetDailyIndexArray(int index)
+    {
+        int tempIndex = (index*5);
+        int[] ints = [tempIndex, tempIndex + 1, tempIndex + 2, tempIndex + 3, tempIndex + 4];
+
+        return ints;
+    }
+
+    public IEnumerable<MovieInfo> GetDailyMovies()
+    {
+        var result = new List<MovieInfo>();
+        int numberOfResults = 5;
+        int resultsReturned = 0;
+        int[] dailyIndexes = GetDailyIndexArray(DailyIndex());
+
+        while (result.Count < numberOfResults && resultsReturned < dailyIndexes.Length)
+        {
+            var tempIndex = dailyIndexes[resultsReturned];
+            if (tempIndex < 0 || tempIndex >= _movies.Count)
+            {
+                resultsReturned++;
+                continue;
+            }
+            var movie = GetMovieAt(tempIndex);
+            if (movie is null)
+            {
+                resultsReturned++;
+                continue;
+            }
+            result.Add(movie);
+            resultsReturned++;
+        }
+        return result;
+    }
+
 
     private static MovieInfo Map(RawMovie m, Random rng)
     {
@@ -59,6 +105,7 @@ public class MovieListService : IMovieListService
         };
     }
 
+
     private static (string Source, string Value) PickRandomRating(RawMovie m, int x, Random rng)
     {
         if (m.Ratings is { Count: > 0 })
@@ -72,4 +119,5 @@ public class MovieListService : IMovieListService
 
         return (string.Empty, string.Empty);
     }
+
 }

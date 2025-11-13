@@ -4,6 +4,6 @@ namespace MovieRatingServer.Services;
 
 public interface IMovieListService
 {
-    MovieInfo GetRandomMovie();
+    IEnumerable<MovieInfo> GetDailyMovies();
 }
 
