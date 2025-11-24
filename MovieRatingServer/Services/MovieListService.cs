@@ -6,9 +6,9 @@ namespace MovieRatingServer.Services;
 public class MovieListService : IMovieListService
 {
     private const string _movieDatabaseFileName = "movie-database.json";
-    private readonly DateTime _startDate = DateTime.Now; // new DateTime(2025, 11, 19, 10, 06, 00);
+    private readonly DateTime _startDate = new DateTime(2025, 11, 23, 00, 00, 00); // DateTime.Now;
     private readonly double _incrementMinutes = 1;
-    private const int _dailyMovieCount = 5;
+    private const int _dailyMovieCount = 3;
 
     private readonly List<MovieInfo> _movies;
     private readonly Random _rng;
@@ -25,7 +25,7 @@ public class MovieListService : IMovieListService
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             RawMovieList root = JsonSerializer.Deserialize<RawMovieList>(json, options) ?? throw new InvalidOperationException("Failed to deserialize movie database");
-            _movies = root.MovieDatabase.Select(m => ConstructMovieInfo(m)).Take(7).ToList();
+            _movies = root.MovieDatabase.Select(m => ConstructMovieInfo(m)).ToList();
         }
         else
         {
