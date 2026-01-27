@@ -1,6 +1,8 @@
 ﻿
 using GatherMovieInfo;
 using MovieRating.Shared;
+using MovieRatingShared;
+using System.Net.Http.Json;
 using System.Text.Json;
 
 namespace Services;
@@ -50,6 +52,42 @@ public class TMDBService
             }
             
             await Task.Delay(400);
+        }
+    }
+
+    public async Task FetchMovieDataFromTMDBID(int tmdbID)
+    {
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri($"/3/movie/{tmdbID}", UriKind.Relative),
+        };
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            var body = await response.Content.ReadAsStringAsync();
+            var parsedResponse = JsonDocument.Parse(body);
+            
+            Console.WriteLine(parsedResponse);
+        }   
+    }
+
+    public async Task<TMDBData> FetchMovieDataFromIMDBID(string imdbID)
+    {
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri($"/3/find/{imdbID}?external_source=imdb_id", UriKind.Relative),
+        };
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            TMDBResponse body = (await response.Content.ReadFromJsonAsync<TMDBResponse>())!;
+            TMDBData data = body.TMDBData[0];
+
+            return data;
         }
     }
 
@@ -121,6 +159,40 @@ public class TMDBService
             }
 
             await Task.Delay(250);
+        }
+    }
+
+    public async Task<List<WatchProvider>> GetWatchProvidersForId(int tmbdId)
+    {
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri($"/3/movie/{tmbdId}/watch/providers", UriKind.Relative),
+        };
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            var data = JsonSerializer.Deserialize<WatchProviderResponse>(await response.Content.ReadAsStringAsync());
+
+            return data?.Results.US?.Flatrate ?? [];
+        }
+    }
+
+    public async Task<string> GetIMDbIdFromTMDbId(int tmbdId)
+    {
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri($"/3/movie/{tmbdId}/external_ids", UriKind.Relative),
+        };
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            ExternalIdResponse data = (await response.Content.ReadFromJsonAsync<ExternalIdResponse>())!;
+
+            return data.IMDbId;
         }
     }
 }

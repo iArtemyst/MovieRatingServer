@@ -1,5 +1,7 @@
 ﻿using GatherMovieInfo;
 using MovieRating.Shared;
+using MovieRatingShared;
+using System.Net.Http.Json;
 using System.Text.Json;
 
 namespace Services;
@@ -10,19 +12,19 @@ public class OMDBService
 
     const string RawIds = "";
     const string OutPath = ".\\movie-list.json";
+    string[] ids = RawIds.Split(',');
 
     public OMDBService()
     {
         _client = new HttpClient()
         {
-            BaseAddress = new Uri("https://api.themoviedb.org/3"),
+            BaseAddress = new Uri("http://www.omdbapi.com"),
         };
     }
 
-    public async Task TestRequest()
+    public async Task OMDBFetchData()
     {
-        string[] ids = RawIds.Split(',');
-
+       
         int currentIndex = 0;
         List<RawMovie> movieList = new List<RawMovie>();
         try
@@ -55,5 +57,21 @@ public class OMDBService
         await File.WriteAllTextAsync(Path.GetFullPath(OutPath), JsonSerializer.Serialize(rawMovieList, new JsonSerializerOptions() { WriteIndented = true }));
 
         Console.WriteLine($"Done. Wrote {rawMovieList.MovieDatabase.Count} movies to {Path.GetFullPath(OutPath)}");
+    }
+
+
+
+    public async Task<RawMovie> FetchOMDBDataFromIMDBID(string imdbID)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri($"?i={imdbID}&apiKey={Constants.OMDBApiKey}", UriKind.Relative));
+
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            RawMovie data = (await response.Content.ReadFromJsonAsync<RawMovie>())!;
+
+            return data;
+        }
     }
 }
