@@ -1,6 +1,7 @@
 ﻿using MovieRating.Shared;
 using MovieRatingShared;
 using Services;
+using System.Runtime.CompilerServices;
 using System.Text.Json;
 
 namespace GatherMovieInfo;
@@ -17,6 +18,8 @@ internal class Program
     private const int minAverageVote = 4;
     private const int maxAverageVote = 7;
     private const int minVoteCount = 3000;
+    private static Random rng = new Random();
+
 
     private static JsonSerializerOptions serializerOptions = new JsonSerializerOptions() { WriteIndented = true };
 
@@ -24,7 +27,8 @@ internal class Program
     {
         TMDBService tmdbService = new TMDBService();
         //await GetNewMoviesFromListOfIDs(RawIds);
-        await UpdateBoxOfficRevenue();
+        //await UpdateBoxOfficRevenue();
+        ShuffleMovieDatabase();
         //await UpdateReviewsForMovies();
         //PurgeUnwantedMovies();
     }
@@ -42,6 +46,17 @@ internal class Program
         }
     }
 
+
+    private static void ShuffleMovieDatabase()
+    {
+        RawMovieList db = JsonSerializer.Deserialize<RawMovieList>(File.ReadAllText(Constants.DBPath))!;
+        List<RawMovie> movies = db.MovieDatabase;
+        
+        var shuffledMovies = movies.OrderBy(_  => rng.Next()).ToList();
+
+        File.WriteAllText(Constants.DBPath, JsonSerializer.Serialize(shuffledMovies, serializerOptions));
+
+    }
 
     private static async Task GetNewMovieFromImdbID(string imdbID)
     {
