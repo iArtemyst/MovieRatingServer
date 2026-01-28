@@ -31,6 +31,9 @@ public class MovieInfo
 
     [JsonPropertyName("WatchProviders")]
     public required List<WatchProvider>? WatchProviders { get; set; }
+
+    [JsonPropertyName("Reviews")]
+    public required List<string>? Reviews { get; set; }
 }
 
 public class RatingInfo
@@ -77,6 +80,7 @@ public class RawMovie
     public required string Response { get; set; }
     public int TMDBId { get; set; }
     public List<WatchProvider>? WatchProviders { get; set; }
+    public List<string>? Reviews { get; set; }
 }
 
 public class RawRating

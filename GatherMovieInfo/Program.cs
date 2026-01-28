@@ -23,8 +23,9 @@ internal class Program
     public static async Task Main(string[] args)
     {
         TMDBService tmdbService = new TMDBService();
-        await GetNewMoviesFromListOfIDs(RawIds);
-        //await GetNewMovieFromImdbID("tt0165982");
+        //await GetNewMoviesFromListOfIDs(RawIds);
+        await UpdateBoxOfficRevenue();
+        //await UpdateReviewsForMovies();
         //PurgeUnwantedMovies();
     }
 
@@ -41,6 +42,7 @@ internal class Program
         }
     }
 
+
     private static async Task GetNewMovieFromImdbID(string imdbID)
     {
         TMDBService tmdbService = new TMDBService();
@@ -50,12 +52,14 @@ internal class Program
         if (candidate == null)
         {
             RawMovie omdbData = await omdbService.FetchOMDBDataFromIMDBID(imdbID);
-            TMDBData tmdbData = await tmdbService.FetchMovieDataFromIMDBID(imdbID);
+            TMDBExternalDetailData tmdbData = await tmdbService.FetchMovieDataFromIMDBID(imdbID);
             List<WatchProvider> tmdbProviders = await tmdbService.GetWatchProvidersForId(tmdbData.TMDBID);
+            List<string> tmdbReviews = await tmdbService.GetReviewsFromTmdb(tmdbData.TMDBID);
 
             RawMovie combinedData = omdbData;
             combinedData.TMDBId = tmdbData.TMDBID;
             combinedData.WatchProviders = tmdbProviders;
+            combinedData.Reviews = tmdbReviews;
 
             db.MovieDatabase.Add(combinedData);
 
@@ -155,6 +159,78 @@ internal class Program
         File.WriteAllText(Constants.DBPath, JsonSerializer.Serialize(db, serializerOptions));
     }
 
+    private static async Task UpdateReviewsForMovies()
+    {
+        TMDBService tmdbService = new TMDBService();
+        RawMovieList db = JsonSerializer.Deserialize<RawMovieList>(File.ReadAllText(Constants.DBPath))!;
+
+        foreach (var movie in db.MovieDatabase)
+        {
+            if (movie.TMDBId != 0 && movie.Reviews is null)
+            {
+                await tmdbService.GetReviewsFromTmdb(movie.TMDBId);
+                List<string> reviews = await tmdbService.GetReviewsFromTmdb(movie.TMDBId);
+                movie.Reviews = reviews;
+                Console.WriteLine($"Added reviews for {movie.Title}");
+            }
+            else
+            {
+                if (movie.TMDBId == 0)
+                {
+                    Console.WriteLine($"Skipping {movie.Title} - no TMDBId");
+                }
+                else
+                {
+                    Console.WriteLine($"Skipping {movie.Title} - already populated");
+                }
+            }
+
+            await Task.Delay(50);
+        }
+
+        File.WriteAllText(Constants.DBPath, JsonSerializer.Serialize(db, serializerOptions));
+    }
+
+
+    private static async Task UpdateBoxOfficRevenue()
+    {
+        TMDBService tmdbService = new TMDBService();
+        RawMovieList db = JsonSerializer.Deserialize<RawMovieList>(File.ReadAllText(Constants.DBPath))!;
+
+        foreach (var movie in db.MovieDatabase)
+        {
+            if (movie.TMDBId != 0 && movie.BoxOffice == "N/A")
+            {
+                int revenue = (await tmdbService.GetRevenueInfoFromDB(movie.TMDBId));
+                if (revenue > 0)
+                {
+                    string stringRevenue = Convert.ToString(revenue);
+                    movie.BoxOffice = stringRevenue;
+                    Console.WriteLine($"Added revenue for {movie.Title}");
+                }
+            }
+            if (movie.BoxOffice == "0")
+            {
+                movie.BoxOffice = "N/A";
+                Console.WriteLine($"Updating 0 Rev to No Data for {movie.Title}");
+            }
+            else
+            {
+                if (movie.TMDBId == 0)
+                {
+                    Console.WriteLine($"Skipping {movie.Title} - no TMDBId");
+                }
+                else
+                {
+                    Console.WriteLine($"Skipping {movie.Title} - already populated");
+                }
+            }
+
+            await Task.Delay(50);
+        }
+
+        File.WriteAllText(Constants.DBPath, JsonSerializer.Serialize(db, serializerOptions));
+    }
 
 
     private static async Task UpdateTMDBIds()

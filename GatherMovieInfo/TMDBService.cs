@@ -73,7 +73,50 @@ public class TMDBService
         }   
     }
 
-    public async Task<TMDBData> FetchMovieDataFromIMDBID(string imdbID)
+    public async Task<int> GetRevenueInfoFromDB(int tmdbID)
+    {
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri($"/3/movie/{tmdbID}", UriKind.Relative),
+        };
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            TMDBMovieDetailResponse body = (await response.Content.ReadFromJsonAsync<TMDBMovieDetailResponse>())!;
+            int revenue = body.Revenue;
+
+            return revenue;
+        }
+    }
+
+    public async Task<List<string>> GetReviewsFromTmdb(int tmdbID)
+    {
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri($"/3/movie/{tmdbID}/reviews?language=en-US&page=1", UriKind.Relative),
+        };
+
+        using (var response = await _client.SendAsync(request))
+        {
+            response.EnsureSuccessStatusCode();
+            TmdbMovieReviewsResponse body = (await response.Content.ReadFromJsonAsync<TmdbMovieReviewsResponse>())!;
+            List<ReviewsResults>? results = body.Results;
+            List<string>? reviews = [];
+
+            foreach (ReviewsResults reviewResults in results)
+            {
+                reviews.Add(reviewResults.ReviewContent ?? string.Empty);
+            }
+
+            Console.WriteLine(reviews);
+            return reviews;
+        }
+    }
+
+    public async Task<TMDBExternalDetailData> FetchMovieDataFromIMDBID(string imdbID)
     {
         var request = new HttpRequestMessage
         {
@@ -84,8 +127,8 @@ public class TMDBService
         using (var response = await _client.SendAsync(request))
         {
             response.EnsureSuccessStatusCode();
-            TMDBResponse body = (await response.Content.ReadFromJsonAsync<TMDBResponse>())!;
-            TMDBData data = body.TMDBData[0];
+            TMDBExternalDetailResponse body = (await response.Content.ReadFromJsonAsync<TMDBExternalDetailResponse>())!;
+            TMDBExternalDetailData data = body.TMDBData[0];
 
             return data;
         }
